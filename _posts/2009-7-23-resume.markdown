@@ -1,0 +1,55 @@
+--- 
+layout: post
+title: Resume
+date: 2009-07-23 14:21:45 -05:00
+mt_id: 10
+---
+##Education 
+
+###University of Missouri, Columbia, MO 
+2000 - 2004 
+Bachelor of Science, Computer Science Engineering 
+Minor in Mathematics
+
+##Experience 
+**Head of Development**  
+**Delta Systems Group - Columbia, MO**  
+**March 2006-Present**  
+ 
+Served as development lead on all group projects, coordinating across the development and management teams.  Managed scheduling, resource allocation, development iterations as well as quality assurance testing cycles, bug tracking and task delegation.  
+
+Served as a lead developer for our flagship product EasyTRC, a contract management system in use by several Chamber of Commerce organizations to manage their clients, customers and contracts online.
+<br/><br />
+**Information Technologist**  
+**Missouri Department of Insurance - Jefferson City, MO**  
+**January 2005 - March 2006**  
+
+Responsible for the Missouri Department of Insurance website, including new development (HTML, PERL), content management, bug reporting, bug fixing and overall site improvement. Developing and maintaining Microsoft Access and Lotus Notes systems.
+
+##Personal Projects
+
+Designed and developed [Faces.app][4], Cocoa application that manages social network profile images with Core Data and Core Animation using publicly available APIs.
+
+Designed and developed [GithubNotifier][5], a menu-bar Cocoa application to 
+
+Core contributor to [MGTwitterEngine][1], an Objective-C Twitter integration library for Mac OS X and iPhone.  
+Core contributor to [CocoaREST][2], a collection of Cocoa classes to interact with RESTful services (including Twitter).  
+
+##Skills 
+
+* Front-end development with HTML, CSS and Javascript (jQuery, Yahoo User Interface Library)
+* Back-end development with PHP5 and the Zend Framework
+* Database development with PostgreSQL and MySQL
+* Ruby on Rails
+* Objective-c and Cocoa (iPhone, Desktop development)
+* Custom WordPress installations, configurations and theming
+* Bash Shell scripting 
+
+##Contact 
+###info at ctshryock dot com
+
+[1]: http://github.com/ctshryock/MGTwitterEngine
+[2]: http://github.com/ctshryock/CocoaREST
+[3]: http://github.com/ctshryock/jrfeedbackprovider
+[4]: http://ctshryock.com/facesapp.html
+[5]: http://ctshryock.com/git-notifi.html 

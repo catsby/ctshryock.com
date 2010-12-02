@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Heros
+date: 2010-11-19 10:44:25
+mt_id: 49
+---
+> You can't count on anyone.  Especially your heros.
+
+_--Syndrome_ 

@@ -1,0 +1,45 @@
+/* @override http://localhost:4000/style.css */
+
+/* @override http://localhost/ctshryock.github.com/style.css */
+
+body {
+  font-family: "museo-sans-1","museo-sans-2";
+}
+
+dl, dd, dt, div, blockquote, p {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#content {
+	float: left;
+	width: 560px;
+}
+
+#navigation {
+	float: left;
+}
+
+blockquote {
+	text-transform: none;
+	margin: 0px auto;
+	font-style: italic;
+	background: #eee;
+	padding: 10px 4px;
+}
+
+.post {
+	width: 500px;
+	clear: both;
+	margin: 10px 0;
+}
+
+.post-image{
+	float: left;
+	margin-right: 10px;
+}
