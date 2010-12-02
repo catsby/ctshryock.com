@@ -4,6 +4,7 @@ title: Resume
 date: 2009-07-23 14:21:45 -05:00
 mt_id: 10
 type: page
+permalink: resume.html
 ---
 ##Education 
 

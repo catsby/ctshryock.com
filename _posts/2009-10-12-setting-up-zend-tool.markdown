@@ -23,7 +23,7 @@ Once that's finished, lets take a look at what we've got.
 	open .
 
 You should see something like this:
-<img alt="ZendFramework.jpg" src="http://ctshryock.com/2009/10/13/ZendFramework.jpg" width="239" height="235" style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img alt="ZendFramework.jpg" src="/images/ZendFramework.jpg" width="239" height="235" style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 The core library is in `library/Zend`, and the Zend Tool scripts are in `bin/`.  
 
@@ -46,7 +46,7 @@ The `bin` folder comes with 3 scripts, a shell script `zf.sh`, bat script for Wi
 ##Using Zend Tool
 Check to see if Zend Tool is working by typing `zf` into the command-line:
 
-<img src="http://ctshryock.com/assets_c/2009/10/output-thumb-500x104-5.jpg" width="500" height="104" alt="output.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img src="/images/output-thumb-500x104-5.jpg" width="500" height="104" alt="output.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 The first thing you'll see is an error, since we didn't supply the correct number of arguments, but following that you'll get usage instructions for all the options of Zend Tool.  
 
@@ -56,11 +56,11 @@ Now lets create a project by switching to your local server's document root and 
 
 Now take a look around at what was made by opening `test-app`
 
-<img src="http://ctshryock.com/assets_c/2009/10/test-app-structure-thumb-200x135-8.jpg" width="200" height="135" alt="test-app-structure.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img src="/images/test-app-structure-thumb-200x135-8.jpg" width="200" height="135" alt="test-app-structure.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 and view it on the web: [http://localhost/test-app/public](http://localhost/test-app/public "Test app on your local server").  You should get the default homepage setup of a Zend Framework Application:
 
-<img src="http://ctshryock.com/assets_c/2009/10/home-thumb-200x130-11.jpg" width="200" height="130" alt="home.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img src="/images/home-thumb-200x130-11.jpg" width="200" height="130" alt="home.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 Zend Tool can do more than just create the project structure, so lets create a controller and an additional action.
 
@@ -69,7 +69,7 @@ Zend Tool can do more than just create the project structure, so lets create a c
 
 You can see that Zend Tool created a controller named `ToolController` and added view scripts for you under `views/scripts/tool/`
 
-<img src="http://ctshryock.com/assets_c/2009/10/tool-controller-thumb-200x110-14.jpg" width="200" height="110" alt="tool-controller.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img src="/images/tool-controller-thumb-200x110-14.jpg" width="200" height="110" alt="tool-controller.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 You can see the default text for that script here: [http://localhost/test-app/public/tool](http://localhost/test-app/public/tool "Tool Controller")
 
@@ -79,6 +79,6 @@ Now lets create an action.  Zend Tool's `create action` method takes requires a 
 
 Your results should be like this:
 
-<img src="http://ctshryock.com/assets_c/2009/10/tool-example-action-thumb-200x119-17.jpg" width="200" height="119" alt="tool-example-action.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
+<img src="/images/tool-example-action-thumb-200x119-17.jpg" width="200" height="119" alt="tool-example-action.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 There are other options and methods in Zend Tool; if you've made this far and understand, you can figure them out 

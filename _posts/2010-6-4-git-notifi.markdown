@@ -2,6 +2,7 @@
 layout: post
 title: Github Notifier
 date: 2010-06-04 08:10:39 -05:00
+permalink: github-notifier.html
 type: page
 mt_id: 38
 ---
