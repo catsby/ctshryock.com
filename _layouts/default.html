@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
     <head>
-        <title>ctshryock.github.com
+        <title>@ctshryock
             {% if page.title %}
                 : {{page.title}}
             {% endif %}
@@ -19,11 +19,35 @@
             <div id="content">
                 {{ content }}
             </div>
-            <div id="navigation">
-                <h2>@navigation</h2>
+            <div id="sidebar">
+
+                <h2>pages</h2>
+
+                <h2>rambeling</h2>
+                
+                {% for page in site.pages limit:5 %}
+                    {{page.title}}
+                {% endfor %}
+                {% for post in site.posts limit:5 %}
+                <dl class="post">
+                    <dd class="post-image">
+                        {% if post.image %}
+                        <img width="50" src="/images/{{post.image}}" />
+                        {% else %}
+                        <img width="50" src="/images/self.JPG" />
+                        {% endif %}            
+                    </dd>
+                    <dt class="post-title">
+                        <a href="{{post.url}}">{{post.title | truncatewords:6}}</a>
+                    </dt>
+                    <dd class="post-date">
+                        {{post.date | date_to_string}}
+                    </dd>
+                </dl>
+                {% endfor %}
             </div>
         </div>
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
 
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-5272456-5']);
@@ -35,7 +59,7 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
 
-        </script>
+        </script> -->
         
     </body>    
 </html>

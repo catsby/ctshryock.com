@@ -5,6 +5,9 @@ permalink: about.html
 date: 2009-07-14 16:50:32 -05:00
 mt_id: 4
 ---
+
+My name is Clint Shryock, I'm a software engineer specializing in development for the Web and Cocoa (iOS/Mac).  I currently live in central Missouri with my Wife, daughter, and two dogs.  
+
 __History__  
 My interest in technology started in 1993 at age 11 when I met [Tie Fighter](http://en.wikipedia.org/wiki/index.html?curid=12692241). From there many other Lucas Arts games followed, and I wound up studying 3D Studio Max and AutoCAD in Highschool.  
 
@@ -34,4 +37,4 @@ __Social__
 - [GitHub](http://github.com/ctshryock)  
 
 __Personal__  
-I'm happily married to a woman who is a far greater person than I.  We enjoy outdoor activities like running, biking and walking our two dogs, Linux and Nero. 
+My Wife and I enjoy outdoor activities like running, biking and walking our two dogs, Linux and Nero. 
