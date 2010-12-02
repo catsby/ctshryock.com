@@ -1,14 +1,21 @@
 /* @override http://localhost:4000/style.css */
 
-/* @override http://localhost/ctshryock.github.com/style.css */
-
 body {
-  font-family: "museo-sans-1","museo-sans-2";
+  font-family: "museo-sans-1","museo-sans-2","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 dl, dd, dt, div, blockquote, p {
 	margin: 0;
 	padding: 0;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h2,h3 {
+	text-transform: capitalize;
+	margin-bottom: 5px;
 }
 
 #wrapper {
@@ -17,12 +24,13 @@ dl, dd, dt, div, blockquote, p {
 }
 
 #content {
-	float: left;
 	width: 560px;
+	float: left;
 }
 
-#navigation {
-	float: left;
+#sidebar {
+	float:right;
+	width: 200px;
 }
 
 blockquote {
@@ -34,7 +42,7 @@ blockquote {
 }
 
 .post {
-	width: 500px;
+	width: 250px;
 	clear: both;
 	margin: 10px 0;
 }
