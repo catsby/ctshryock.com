@@ -2,6 +2,7 @@
 layout: post
 title: Faces.app
 date: 2010-04-14 08:17:53 -05:00
+type: page
 mt_id: 36
 ---
 <img src="http://ctshryock.com/assets_c/2010/04/Faces512-thumb-200x200-20.png" width="200" height="200" alt="Faces512.png" style="float: left; margin: 0 20px 20px 0;">

@@ -22,11 +22,15 @@
             <div id="sidebar">
 
                 <h2>pages</h2>
+                <ul>
                 {% for post in site.posts %}
                     {% if post.type == 'page' %}
-                        <a href="{{post.url}}">{{post.title}}</a>
+                        <li><a href="{{post.url}}">{{post.title}}</a></li>
                     {% endif %}
                 {% endfor %}
+                    <li><a href="http://github.com/ctshryock">Github</a><span class="external-link">-></li>
+                    <li><a href="http://twitter.com/ctshryock">Twitter</a><span class="external-link">-></li>
+                </ul>
                 <h2>rambeling</h2>
                 
                 {% for page in site.pages limit:5 %}

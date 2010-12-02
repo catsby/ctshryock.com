@@ -14,7 +14,6 @@ p {
 }
 
 h2,h3 {
-	text-transform: capitalize;
 	margin-bottom: 5px;
 }
 
@@ -35,14 +34,12 @@ h2,h3 {
 
 blockquote {
 	text-transform: none;
-	margin: 0px auto;
 	font-style: italic;
 	background: #eee;
-	padding: 10px 4px;
+	padding: 10px 0px;
 }
 
 .post {
-	width: 250px;
 	clear: both;
 	margin: 10px 0;
 }
@@ -50,4 +47,8 @@ blockquote {
 .post-image{
 	float: left;
 	margin-right: 10px;
+}
+
+.external-link {
+	float: right;
 }
