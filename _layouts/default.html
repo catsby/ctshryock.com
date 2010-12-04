@@ -37,21 +37,13 @@
                     {{page.title}}
                 {% endfor %}
                 {% for post in site.posts limit:5 %}
-                <dl class="post">
-                    <dd class="post-image">
-                        {% if post.image %}
-                        <img width="50" src="/images/{{post.image}}" />
-                        {% else %}
-                        <img width="50" src="/images/self.JPG" />
-                        {% endif %}            
-                    </dd>
-                    <dt class="post-title">
+                <ul>
+                    <li>
                         <a href="{{post.url}}">{{post.title | truncatewords:6}}</a>
-                    </dt>
-                    <dd class="post-date">
-                        {{post.date | date_to_string}}
-                    </dd>
-                </dl>
+                        <br />
+                        <span class="post-date">{{post.date | date_to_string}}</span>
+                    </li>
+                </ul>
                 {% endfor %}
                 
                 <a href="/archive.html">Archive</a>
