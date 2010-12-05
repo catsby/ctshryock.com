@@ -43,9 +43,17 @@ blockquote {
 	padding-left: 20px;
 }
 
+.post-date,
+.post-date-archive {
+	color: #555;
+}
+
 .post-date {
 	font-size: smaller;
-	color: #555;
+}
+
+.post-date-archive {
+	float: right;
 }
 
 .external-link {

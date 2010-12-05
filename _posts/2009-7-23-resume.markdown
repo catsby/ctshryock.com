@@ -53,5 +53,5 @@ Core contributor to [CocoaREST][2], a collection of Cocoa classes to interact wi
 [1]: http://github.com/ctshryock/MGTwitterEngine
 [2]: http://github.com/ctshryock/CocoaREST
 [3]: http://github.com/ctshryock/jrfeedbackprovider
-[4]: http://ctshryock.com/facesapp.html
-[5]: http://ctshryock.com/git-notifi.html 
+[4]: /faces-app.html
+[5]: /git-notifi.html 
