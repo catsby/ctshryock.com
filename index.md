@@ -3,7 +3,7 @@ layout: default
 image: magic_tree.JPG
 ---
 
-##ctshryock
+##Clint Shryock (ctshryock)
 
 My name is Clint Shryock, I'm a software engineer specializing in development for the Web (RoR, PHP) and Cocoa (iOS/Mac).  I currently live in central Missouri with my wife, daughter, and the family dogs.  
 
