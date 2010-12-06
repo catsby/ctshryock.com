@@ -1,5 +1,9 @@
 /* @override http://localhost:4000/style.css */
 
+html {
+	width: 100%;
+}
+
 body {
   font-family: "museo-sans-1","museo-sans-2","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
@@ -9,12 +13,27 @@ dl, dd, dt, div, blockquote, p {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 p {
 	margin-bottom: 10px;
 }
 
 h2,h3 {
 	margin-bottom: 5px;
+}
+
+blockquote {
+	text-transform: none;
+	font-style: italic;
+	background: #eee;
+	padding: 10px 0px;
 }
 
 #wrapper {
@@ -30,13 +49,6 @@ h2,h3 {
 #sidebar {
 	float:right;
 	width: 200px;
-}
-
-blockquote {
-	text-transform: none;
-	font-style: italic;
-	background: #eee;
-	padding: 10px 0px;
 }
 
 #sidebar ul {
@@ -58,4 +70,12 @@ blockquote {
 
 .external-link {
 	float: right;
+}
+
+#footer {
+	text-align: center;
+	font-size: small;
+	color: #ccc;
+	border-top: 1px solid #ccc;
+	clear: both;
 }
