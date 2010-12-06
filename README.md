@@ -1,4 +1,4 @@
-Source for [ctshryock.com](http://ctshryock.com)
+Source for [ctshryock.com](http://ctshryock.com), site powered by [Jekyll](https://github.com/mojombo/jekyll)
 
 ## License
 
