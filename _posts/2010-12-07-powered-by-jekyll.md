@@ -28,7 +28,7 @@ I also thought it all overkill.  My pages don't change often, and my writings ar
 - edit and publish static css on my own
 - edit and publish templates via the admin interface
 
-"Too much" I said!  Jekyll is simpler and for my use cases faster.  It lacks much of what [Wordpress][8] or MT provide, but much of that I don't care for or need anyway.  
+"Too much" I said!  Jekyll is simpler and for my use cases faster.  It lacks much of what [Wordpress][8] or MT provide, but much of that I don't care for or need anyway.  I now write my _site_ in [Textmate][9] and [Markdown][10].  I have things laid out in a folder structure, and Jekyll generates html code for me.  A little `jekyll && rsync` script to upload the code to my site and I'm done.
 
 
 ##conclusion
@@ -41,3 +41,5 @@ I also thought it all overkill.  My pages don't change often, and my writings ar
 [6]: http://www.movabletype.org/opensource
 [7]: http://feedburner.google.com
 [8]: http://wordpress.org
+[9]: http://macromates.com/
+[10]: http://daringfireball.net/projects/markdown/
