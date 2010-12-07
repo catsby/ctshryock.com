@@ -26,6 +26,7 @@ p {
 }
 
 h2,h3 {
+	font-size: 1.4em;
 	margin-bottom: 5px;
 }
 
@@ -46,8 +47,8 @@ blockquote {
 	float: left;
 }
 
-#content h2 {
-	font-size: large;
+#post h2 {
+	font-size: 1.2em;
 }
 
 #sidebar {
