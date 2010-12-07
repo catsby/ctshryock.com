@@ -46,6 +46,10 @@ blockquote {
 	float: left;
 }
 
+#content h2 {
+	font-size: large;
+}
+
 #sidebar {
 	float:right;
 	width: 200px;
