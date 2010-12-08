@@ -23,13 +23,14 @@
 
                 <h2>pages</h2>
                 <ul>
+                    <li><a href="/" title="About">About</a></li>
                 {% for post in site.posts %}
                     {% if post.type == 'page' %}
-                        <li><a href="/{{post.url}}">{{post.title}}</a></li>
+                        <li><a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
                     {% endif %}
                 {% endfor %}
-                    <li><a href="http://github.com/ctshryock">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
-                    <li><a href="http://twitter.com/ctshryock">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
+                    <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
+                    <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
                 </ul>
                 <h2>rambling</h2>
                 
