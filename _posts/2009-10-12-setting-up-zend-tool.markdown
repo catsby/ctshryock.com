@@ -13,19 +13,13 @@ I first learned how to setup Zend Tool with [this guide](http://devzone.zend.com
 ##Getting Zend Framework
 First step is getting the framework.  Zend Tool requires the Zend Framework be in your `php.ini`'s `include_path`, so you need to obtain the source.  The Zend Framework source is available for public checkout via subversion, and since you're developer, we'll go that route.  Personally, I like to checkout a release tag and not a trunk, that way I can incrementally update from tag to tag instead of just updating from the trunk.  Either should work.  I use my user's `Sites` folder for all my development work so I'm going to check it out there.
 
-	svn co http://framework.zend.com/svn/framework/standard/tags/release-1.9.4 ZendFramework
+{% highlight bash %}
+svn co http://framework.zend.com/svn/framework/standard/tags/release-1.9.4 ZendFramework
+{% endhighlight %}
 
 It's not small, depending on your network, this could take awhile...
 
-Once that's finished, lets take a look at what we've got.
-
-	cd ZendFramework
-	open .
-
-You should see something like this:
-<img alt="ZendFramework.jpg" src="/images/ZendFramework.jpg" width="239" height="235" style="text-align: center; display: block; margin: 0 auto 20px;" />
-
-The core library is in `library/Zend`, and the Zend Tool scripts are in `bin/`.  
+Once that's finished `cd` into the `ZendFramework` dir and the core library is in `library/Zend`, with the Zend Tool scripts in `bin/`.  
 
 
 ##Add Zend Framework to your Include Path
@@ -63,9 +57,10 @@ and view it on the web: [http://localhost/test-app/public](http://localhost/test
 <img src="/images/home-thumb-200x130-11.jpg" width="200" height="130" alt="home.jpg"  style="text-align: center; display: block; margin: 0 auto 20px;" />
 
 Zend Tool can do more than just create the project structure, so lets create a controller and an additional action.
-
+{% highlight bash linenos %}
 	cd test-app
 	zf create controller tool
+{% endhighlight %}
 
 You can see that Zend Tool created a controller named `ToolController` and added view scripts for you under `views/scripts/tool/`
 

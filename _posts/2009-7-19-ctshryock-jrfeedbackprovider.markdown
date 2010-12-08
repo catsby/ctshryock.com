@@ -10,13 +10,15 @@ JRFeedbackProvider is a 'nonviral cocoa source for implementing an application f
 
 The second patch I committed dealt with the latter feature.  In the default `showFeedback` method, the textview was pre-filled with some basic questions in bold; "what happened, what did you expect" etc.  The `showFeedbackWithBugDetails` route was essentially a blank text area by default with the exception of whatever the developer chose to fill it with by supplying an NSString, but this always resulted in the supplied text being in bold like the pre-filled bug report.  I initially figured out that if you called `[textView setString:@""];` it would 'fix' this and the following text would be a normal font weight, but I stumbled across [this thread on cocoadev](http://cocoadev.com/forums/comments.php?DiscussionID=1173) that sent me in another direction.  So I went back and updated the method to first grab the font in use by the textStorage's (which was bold) and creating the same font using the NSFont's `familyName` method, but without the bold, like so:
 
-    NSFont *resetFontWeight = [[textView textStorage] font];
-	//  Font name: Helvetica-Bold	
-	//	Font Family Name: Helvetica
-	[[textView textStorage] setFont:  
-        [NSFont fontWithName:[resetFontWeight familyName]  
-        size:[resetFontWeight pointSize]]];
-    [textView setString:details];  
-    [resetFontWeight release];
+{% highlight objectivec linenos %}
+NSFont *resetFontWeight = [[textView textStorage] font];
+//  Font name: Helvetica-Bold	
+//	Font Family Name: Helvetica
+[[textView textStorage] setFont:  
+    [NSFont fontWithName:[resetFontWeight familyName]  
+    size:[resetFontWeight pointSize]]];
+[textView setString:details];  
+[resetFontWeight release];
+{% endhighlight %}
 
 This effectively resets the font, losing the bold. 
