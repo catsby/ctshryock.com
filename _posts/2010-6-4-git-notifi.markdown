@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Github Notifier
+title: GithubNotifier.app
 date: 2010-06-04 08:10:39 -05:00
 permalink: github-notifier.html
 type: page

@@ -24,5 +24,5 @@ Please send questions or support requests using the in-app feedback menu
 </p>
 
 [1]: http://scary-robot.com/apps/Faces-1.0b7.zip
-[2]: http://ctshryock.com/2010/07/facesapp-update.html 
+[2]: 2010/07/26/facesapp-update.html
 <br />
