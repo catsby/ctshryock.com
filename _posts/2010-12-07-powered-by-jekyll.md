@@ -30,8 +30,7 @@ I also thought it all overkill.  My pages don't change often, and my writings ar
 
 "Too much" I said!  Jekyll is simpler and for my use cases faster.  It lacks much of what [Wordpress][8] or MT provide, but much of that I don't care for or need anyway.  I now write my _site_ in [Textmate][9] and [Markdown][10].  I have things laid out in a folder structure, and Jekyll generates html code for me.  A little `jekyll && rsync` script to upload the code to my site and I'm done.
 
-
-##conclusion
+I'll dive into my experience migrating from MT to Jekyll in my next post.
 
 [1]: http://www.movabletype.org/
 [2]: https://github.com/mojombo/jekyll
