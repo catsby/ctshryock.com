@@ -1,0 +1,15 @@
+# redirects from MT version to Jekyll version
+Redirect 301 /2009/10/setting-up-zend-tool.html http://ctshryock.com/2009/10/12/setting-up-zend-tool.html 
+Redirect 301 /2010/06/using-mgtwitterengine-on-the-desktop.html http://ctshryock.com/2010/06/03/using-mgtwitterengine-on-the-desktop.html
+Redirect 301 /2009/08/zend-db-table-in-zend-framework-19.html http://ctshryock.com/2009/08/03/zend-db-table-in-zend-framework-19.html
+
+Redirect 301 /2010/09/getting-acquainted-with-cinderella.html http://ctshryock.com/2010/09/18/getting-acquainted-with-cinderella.html
+Redirect 301 /2009/10/update-to-ctshryockmgtwitterengine.html http://ctshryock.com/2009/10/15/update-to-ctshryockmgtwitterengine.html
+Redirect 301 /2010/02/geeks-vs-nerds.html http://ctshryock.com/2010/02/16/geeks-vs-nerds.html
+# /code -> projects
+Redirect 301 /2010/02/cappuccino-web-framework.html http://ctshryock.com/2010/02/25/cappuccino-web-framework.html
+
+Redirect 301 /2010/07/facesapp-update.html http://ctshryock.com/2010/07/26/facesapp-update.html
+
+Redirect 301 /2010/09/ghost-gem.html http://ctshryock.com/2010/09/30/ghost-gem.html
+Redirect 301 /2010/11/heros.html http://ctshryock.com/2010/11/19/heros.html
