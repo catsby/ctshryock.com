@@ -6,9 +6,9 @@ mt_id: 10
 type: page
 permalink: resume.html
 ---
-##Education 
 
-###University of Missouri, Columbia, MO 
+##University of Missouri, Columbia, MO 
+
 2000 - 2004 
 Bachelor of Science, Computer Science Engineering 
 Minor in Mathematics
@@ -39,16 +39,14 @@ Core contributor to [CocoaREST][2], a collection of Cocoa classes to interact wi
 
 ##Skills 
 
-* Front-end development with HTML, CSS and Javascript (jQuery, Yahoo User Interface Library)
-* Back-end development with PHP5 and the Zend Framework
+* Front-end development with HTML, CSS and Javascript
+* Back-end development with PHP5, the Zend Framework, and Ruby on Rails
 * Database development with PostgreSQL and MySQL
-* Ruby on Rails
-* Objective-c and Cocoa (iPhone, Desktop development)
-* Custom WordPress installations, configurations and theming
+* Objective-c and Cocoa (Mac OS, iOS)
 * Bash Shell scripting 
 
 ##Contact 
-###info at ctshryock dot com
+##info at ctshryock dot com
 
 [1]: http://github.com/ctshryock/MGTwitterEngine
 [2]: http://github.com/ctshryock/CocoaREST
