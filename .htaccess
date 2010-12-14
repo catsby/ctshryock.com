@@ -13,3 +13,9 @@ Redirect 301 /2010/07/facesapp-update.html http://ctshryock.com/2010/07/26/faces
 
 Redirect 301 /2010/09/ghost-gem.html http://ctshryock.com/2010/09/30/ghost-gem.html
 Redirect 301 /2010/11/heros.html http://ctshryock.com/2010/11/19/heros.html
+
+Redirect 301 /2009/07/paul-graham-and-makers-schedule.html http://ctshryock.com/2009/07/23/paul-graham-and-makers-schedule.html
+
+
+# compress the files
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/x-javascript
