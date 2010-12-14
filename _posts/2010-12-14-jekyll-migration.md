@@ -1,6 +1,6 @@
 ---
 title: Moving from MovableType to Jekyll
-published: true
+published: false
 date: 2010-12-14
 layout: post
 ---
