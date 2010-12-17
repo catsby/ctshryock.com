@@ -30,7 +30,7 @@
                     <li><a href="/" title="About">About</a></li>
                 {% for post in site.posts %}
                     {% if post.type == 'page' %}
-                        <li><a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
+                        <li><a href="/{{post.url}}" title="{{post.title}}" class="internal">{{post.title}}</a></li>
                     {% endif %}
                 {% endfor %}
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
@@ -42,7 +42,7 @@
                     {% unless post.type == 'page' %}
                 <ul>
                     <li>
-                        <a href="{{post.url}}">{{post.title | truncatewords:6}}</a>
+                        <a href="{{post.url}}" class="internal">{{post.title | truncatewords:6}}</a>
                         <br />
                         <span class="post-date">{{post.date | date_to_string}}</span>
                     </li>
@@ -72,6 +72,17 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
 
+        </script>
+        <script type="text/javascript">
+            $('a.internal').click(function() {
+                history.pushState({ path: this.path }, '', this.href)
+                    $.get(this.href, function(data) {
+                    $('#content').replaceWith($("#content", data));  
+                });
+                console.log("returning false");
+                return false  
+            });
+            
         </script>
     </body>    
 </html>
