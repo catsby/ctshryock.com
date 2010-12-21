@@ -9,15 +9,17 @@ permalink: web-errors.html
                                               
 <dl>
     <dt>Hoptoad hopped the toad</dt>
-    <dd>
-        <img src="/images/web-errors/hoptoad.png" alt="Hoptoad" title="Hoptoad hopped the toad" width="540">
+    <dd>    
+        <a href="/images/web-errors/hoptoad.png">
+            <img src="/images/web-errors/hoptoad.png" alt="Hoptoad" title="Hoptoad hopped the toad" width="540" />  
+        </a>
     </dd>
 </dl>                                                                                                              
 <dl>
     <dt>Octocat is terrified</dt>
     <dd>
         <a href="/images/web-errors/jobs.github.png">
-            <img src="/images/web-errors/jobs.github.png" alt="Jobs.Github" title="Octocat is terrified" width="540">      
+            <img src="/images/web-errors/jobs.github.png" alt="Jobs.Github" title="Octocat is terrified" width="540" />      
         </a>
     </dd>
 </dl>   
