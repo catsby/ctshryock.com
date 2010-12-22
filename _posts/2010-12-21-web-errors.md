@@ -7,6 +7,7 @@ type: page
 
 ##A collection of web error messages as I find them
 
+Have your own?  Send to web-errors\[at\]ctshryock\[dot\]com
                                               
 <dl>
     <dt>Hoptoad hopped the toad</dt>
