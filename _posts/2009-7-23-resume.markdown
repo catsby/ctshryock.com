@@ -52,4 +52,4 @@ Core contributor to [CocoaREST][2], a collection of Cocoa classes to interact wi
 [2]: http://github.com/ctshryock/CocoaREST
 [3]: http://github.com/ctshryock/jrfeedbackprovider
 [4]: /faces-app.html
-[5]: /git-notifi.html 
+[5]: /github-notifier.html 
