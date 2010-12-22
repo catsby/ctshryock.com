@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Web Errors
-permalink: web-errors.html
+permalink: web-errors.html      
+type: page
 ---
 
 ##A collection of web error messages as I find them
