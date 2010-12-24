@@ -1,3 +1,4 @@
 auto: false
 pygments: true
 exclude: swag
+exclude: d.diff
