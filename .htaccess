@@ -35,4 +35,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javasc
 </IfModule>
 # END EXPIRES
 # 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404.html             
+
+# 'web-errors' was a post for a while, catch any broken links
+Redirect 301 /2010/12/22/web-errors.html  http://ctshryock.com/web-errors.html
