@@ -1,5 +1,3 @@
-/* @override http://localhost:4000/style.css */
-
 html {
 	width: 100%;
 }
@@ -19,6 +17,10 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+a img {
+	cursor: pointer;
 }
 
 p {
@@ -87,4 +89,37 @@ blockquote {
 
 pre {
 	overflow: auto;
+}
+
+.oreo-steps {
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.oreo-steps dd.image {
+	clear: both;
+	margin-right: 10px;
+	float: left;
+	width: 150px;
+}
+
+.oreo-steps dd {
+	width: 400px;
+	float: left;
+}
+
+.oreo-steps dd a {
+	display: block;
+	width: 150px;
+}
+
+.oreo-steps dt {
+	font-weight: bold;
+	float: left;
+}
+
+dd ol {
+	margin: 0;
+	padding-left: 25px;
 }
