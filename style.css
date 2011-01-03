@@ -39,6 +39,15 @@ blockquote {
 	padding: 10px 0px;
 }
 
+dl {
+	margin-bottom: 20px;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+
 #wrapper {
 	margin: 0 auto;
 	width: 800px;
@@ -91,6 +100,15 @@ pre {
 	overflow: auto;
 }
 
+
+dd ol {
+	margin: 0;
+	padding-left: 25px;
+}
+
+/* @group super awesome oreo-balls */
+
+
 .oreo-steps {
 	clear: both;
 	float: left;
@@ -119,7 +137,17 @@ pre {
 	float: left;
 }
 
-dd ol {
-	margin: 0;
-	padding-left: 25px;
+/* @end */
+
+/* @group web-errors */
+
+dd.error-date {
+	font-size: smaller;
+	font-style: italic;
+	margin-bottom: 5px;
 }
+
+dd.error-image {
+	border: 1px solid #ccc;
+}
+/* @end */
