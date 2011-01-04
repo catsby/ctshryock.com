@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "museo-sans-1","museo-sans-2","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 dl, dd, dt, div, blockquote, p {
@@ -94,6 +94,7 @@ dl dt {
 	color: #ccc;
 	border-top: 1px solid #ccc;
 	clear: both;
+	padding: 10px 0;
 }
 
 pre {
