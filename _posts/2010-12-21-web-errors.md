@@ -8,11 +8,20 @@ type: page
 A collection of web error/404 messages as I find them
 
 <dl>
+    <dt>Apple Support 404</dt>
+    <dd class="error-date">January 6th, 2011</dd>
+    <dd class="error-image">    
+        <a href="http://static.ctshryock.com/images/web-errors/apple-support-404-full.png">
+            <img src="http://static.ctshryock.com/images/web-errors/apple-support-404.png" alt="Apple Support" title="No support for you" width="540" />  
+        </a>
+    </dd>
+</dl>
+<dl>
     <dt>Github 404</dt>
     <dd class="error-date">January 3rd, 2011</dd>
     <dd class="error-image">    
         <a href="http://static.ctshryock.com/images/web-errors/github-404-full.png">
-            <img src="http://static.ctshryock.com/images/web-errors/github-404.png" alt="Hoptoad" title="Github is not the 404 you're looking for" width="540" />  
+            <img src="http://static.ctshryock.com/images/web-errors/github-404.png" alt="Github repository not found" title="Github is not the 404 you're looking for" width="540" />  
         </a>
     </dd>
 </dl>                                        
