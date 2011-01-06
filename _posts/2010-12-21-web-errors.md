@@ -23,7 +23,7 @@ A collection of web error/404 messages as I find them
         <a href="http://static.ctshryock.com/images/web-errors/github-404-full.png">
             <img src="http://static.ctshryock.com/images/web-errors/github-404.png" alt="Github repository not found" title="Github is not the 404 you're looking for" width="540" />  
         </a>
-        <span class="error-note">Move your mouse around the image <a href="https://github.com/ctsh">an error page</a></span>
+        <span class="error-note">Move your mouse around the image on <a href="https://github.com/ctsh">an error page</a></span>
     </dd>
 </dl>                                        
 <dl>
