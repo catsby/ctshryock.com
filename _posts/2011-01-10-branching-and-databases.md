@@ -3,10 +3,7 @@ layout: post
 title: Branching and Databases
 ---
 
-<a href="http://static.ctshryock.com/images/doctrine.png">
-    <img src="http://static.ctshryock.com/images/doctrine.png" alt="Odd state with git branches and doctrine migrations" />  
-</a>
-
+<img src="http://static.ctshryock.com/images/doctrine.png" alt="Odd state with git branches and doctrine migrations" />  
 
 We use [Git][1] at work and make use of several concurrent topic branches.  At the same time, we utilize [Doctrine][2] to keep our databases in line and updates made to them sane and manageable.  
 
