@@ -151,5 +151,6 @@ span.error-note {
 
 dd.error-image {
 	border: 1px solid #ccc;
+	width:540px;
 }
 /* @end */
