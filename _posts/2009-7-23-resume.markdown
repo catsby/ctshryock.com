@@ -7,24 +7,24 @@ type: page
 permalink: resume.html
 ---
 
-##University of Missouri, Columbia, MO 
-
-2000 - 2004 
-Bachelor of Science, Computer Science Engineering 
-Minor in Mathematics
-
 ##Experience 
-**Head of Development**  
-**Delta Systems Group - Columbia, MO**  
-**March 2006-Present**  
+**Software Engineer**  
+CramerDev
+September 2010 - Present
+
+Web application development with PHP, Ruby, and Ruby on Rails.
+
+**Senior Developer**  
+Delta Systems Group - Columbia, MO  
+March 2006 September 2010  
  
 Served as development lead on all group projects, coordinating across the development and management teams.  Managed scheduling, resource allocation, development iterations as well as quality assurance testing cycles, bug tracking and task delegation.  
 
 Served as a lead developer for our flagship product EasyTRC, a contract management system in use by several Chamber of Commerce organizations to manage their clients, customers and contracts online.
 <br/><br />
 **Information Technologist**  
-**Missouri Department of Insurance - Jefferson City, MO**  
-**January 2005 - March 2006**  
+Missouri Department of Insurance - Jefferson City, MO  
+January 2005 - March 2006  
 
 Responsible for the Missouri Department of Insurance website, including new development (HTML, PERL), content management, bug reporting, bug fixing and overall site improvement. Developing and maintaining Microsoft Access and Lotus Notes systems.
 
@@ -45,8 +45,16 @@ Core contributor to [CocoaREST][2], a collection of Cocoa classes to interact wi
 * Objective-c and Cocoa (Mac OS, iOS)
 * Bash Shell scripting 
 
+
+
+##Education
+**University of Missouri, Columbia, MO**  
+2000 - 2004 
+Bachelor of Science, Computer Science Engineering 
+Minor in Mathematics
+
 ##Contact 
-##info at ctshryock dot com
+*info at ctshryock dot com*
 
 [1]: http://github.com/ctshryock/MGTwitterEngine
 [2]: http://github.com/ctshryock/CocoaREST
