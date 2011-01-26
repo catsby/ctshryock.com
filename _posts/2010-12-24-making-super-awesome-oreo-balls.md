@@ -8,8 +8,8 @@ It's Christmas time _(technically past at the time of publish)_.  Christmas to m
 What's a super Awesome Oreo ball?  This is a super awesome Oreo ball:
 
 <div align="center">
-<a href="http://static.ctshryock.com/images/oreo-balls/anatomy.JPG">
-    <img src="http://static.ctshryock.com/images/oreo-balls/anatomy-header.JPG" title="Anatomy of a super Awesome Oreo Ball" width="401" />  
+<a href="/static/images/oreo-balls/anatomy.JPG">
+    <img src="/static/images/oreo-balls/anatomy-header.JPG" title="Anatomy of a super Awesome Oreo Ball" width="401" />  
 </a>
 </div>
 
@@ -21,8 +21,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/materials.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/materials-thumb.jpg" alt="Clone the source" width="150" />
+        <a href="/static/images/oreo-balls/materials.jpg">
+            <img src="/static/images/oreo-balls/materials-thumb.jpg" alt="Clone the source" width="150" />
         </a>
     </dd>
     <dt>Clone the source</dt>
@@ -37,8 +37,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/blender.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/blender-thumb.jpg" alt="Compress objects" width="150" />
+        <a href="/static/images/oreo-balls/blender.jpg">
+            <img src="/static/images/oreo-balls/blender-thumb.jpg" alt="Compress objects" width="150" />
         </a>
     </dd>
     <dt>Compress objects</dt>
@@ -55,8 +55,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/choco-melt.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/choco-melt-thumb.jpg" alt="Melting" width="150" />
+        <a href="/static/images/oreo-balls/choco-melt.jpg">
+            <img src="/static/images/oreo-balls/choco-melt-thumb.jpg" alt="Melting" width="150" />
         </a>
     </dd>
     <dt>Melting</dt>
@@ -66,8 +66,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/mix-o-and-c.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/mix-o-and-c-thumb.jpg" alt="Merging" width="150" />
+        <a href="/static/images/oreo-balls/mix-o-and-c.jpg">
+            <img src="/static/images/oreo-balls/mix-o-and-c-thumb.jpg" alt="Merging" width="150" />
         </a>
     </dd>
     <dt>Merging</dt>
@@ -77,8 +77,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/oreo-ball.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/oreo-ball-thumb.jpg" alt="Rounding" width="150" />
+        <a href="/static/images/oreo-balls/oreo-ball.jpg">
+            <img src="/static/images/oreo-balls/oreo-ball-thumb.jpg" alt="Rounding" width="150" />
         </a>
     </dd>
     <dt>Rounding</dt>
@@ -88,8 +88,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/oreo-chocolate.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/oreo-chocolate-thumb.jpg" alt="Coating" width="150" />
+        <a href="/static/images/oreo-balls/oreo-chocolate.jpg">
+            <img src="/static/images/oreo-balls/oreo-chocolate-thumb.jpg" alt="Coating" width="150" />
         </a>
     </dd>
     <dt>Coating</dt>
@@ -109,8 +109,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/wait-2.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/wait-2-thumb.jpg" alt="Wait" width="150" />
+        <a href="/static/images/oreo-balls/wait-2.jpg">
+            <img src="/static/images/oreo-balls/wait-2-thumb.jpg" alt="Wait" width="150" />
         </a>
     </dd>
     <dt>Wait</dt>
@@ -127,8 +127,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/drizzle.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/drizzle-thumb.jpg" alt="Drizzle" width="150" />
+        <a href="/static/images/oreo-balls/drizzle.jpg">
+            <img src="/static/images/oreo-balls/drizzle-thumb.jpg" alt="Drizzle" width="150" />
         </a>
     </dd>
     <dt>Drizzle</dt>
@@ -148,8 +148,8 @@ Lucky for you making Super Awesome Oreo Balls is super easy.
 </dl>
 <dl class="oreo-steps">
     <dd class="image">
-        <a href="http://static.ctshryock.com/images/oreo-balls/collection.jpg">
-            <img src="http://static.ctshryock.com/images/oreo-balls/collection-thumb.jpg" alt="Arrangement" width="150" />
+        <a href="/static/images/oreo-balls/collection.jpg">
+            <img src="/static/images/oreo-balls/collection-thumb.jpg" alt="Arrangement" width="150" />
         </a>
     </dd>
     <dt>Arrangement</dt>
