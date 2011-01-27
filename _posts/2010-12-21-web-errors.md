@@ -8,11 +8,21 @@ type: page
 A collection of web error/404 messages as I find them
 
 <dl>
+    <dt>NimbleText 404</dt>
+    <dd class="error-date">January 27th, 2011</dd>
+    <dd class="error-image">    
+        <a href="http://ctshryock.com/static/images/web-errors/nimbletext.com.png">
+            <img src="http://ctshryock.com/static/images/web-errors/nimbletext.com_thumb.png" alt="NimbleText Ugly Guy" title="NimbleText Ugly Guy" width="540" />  
+        </a>
+    </dd>
+</dl>
+
+<dl>
     <dt>BankSimple 404</dt>
     <dd class="error-date">January 21th, 2011</dd>
     <dd class="error-image">    
         <a href="http://ctshryock.com/static/images/web-errors/bank_simple_404.png">
-            <img src="http://ctshryock.com/static/images/web-errors/bank_simple_404_thumb.png" alt="Github Unicorn" title="BankSimple 404" width="540" />  
+            <img src="http://ctshryock.com/static/images/web-errors/bank_simple_404_thumb.png" alt="BankSimple 404" title="BankSimple 404" width="540" />  
         </a>
     </dd>
 </dl>
