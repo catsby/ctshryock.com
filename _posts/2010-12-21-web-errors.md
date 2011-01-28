@@ -11,8 +11,8 @@ A collection of web error/404 messages as I find them
     <dt>Twitter "Fail Whale"</dt>
     <dd class="error-date">January 28th, 2011</dd>
     <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/twitter.png">
-            <img src="http://ctshryock.com/static/images/web-errors/twitter_thumb.png" alt="Twitters infamous 'Fail Whale'" title="Fail Whale" width="540" />  
+        <a href="http://ctshryock.com/static/images/web-errors/Twitter.png">
+            <img src="http://ctshryock.com/static/images/web-errors/Twitter_thumb.png" alt="Twitters infamous 'Fail Whale'" title="Fail Whale" width="540" />  
         </a>
         <span class="error-note">This used to be real common about a year or so ago, but has been pretty scarce lately</span>
     </dd>
