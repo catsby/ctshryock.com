@@ -8,6 +8,24 @@ type: page
 A collection of web error/404 messages as I find them
 
 <dl>
+    <dt>nginx 502</dt>
+    <dd class="error-date">January 29th, 2011</dd>
+    <dd class="error-image">    
+        <a href="http://ctshryock.com/static/images/web-errors/nginx-502.png">
+            <img src="http://ctshryock.com/static/images/web-errors/nginx-502_thumb.png" alt="nginx 502" title="nginx 502" width="540" />  
+        </a>
+    </dd>
+</dl>
+<dl>
+    <dt>StackExchange 404</dt>
+    <dd class="error-date">January 29th, 2011</dd>
+    <dd class="error-image">    
+        <a href="http://ctshryock.com/static/images/web-errors/stackexchange.png">
+            <img src="http://ctshryock.com/static/images/web-errors/stackexchange_thumb.png" alt="StackExchange 404" title="StackExchange 404" width="540" />  
+        </a>
+    </dd>
+</dl>
+<dl>
     <dt>Twitter "Fail Whale"</dt>
     <dd class="error-date">January 28th, 2011</dd>
     <dd class="error-image">    
