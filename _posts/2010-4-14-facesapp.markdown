@@ -1,10 +1,9 @@
 --- 
-layout: post
+layout: page
 title: Faces.app
 date: 2010-04-14 08:17:53 -05:00
 permalink: faces-app.html
-type: page
-mt_id: 36
+category: page
 ---
 <img src="http://ctshryock.com/static/images/Faces512-thumb-200x200-20.png" width="200" height="200" alt="Faces512.png" style="float: left; margin: 0 20px 20px 0;">
 Faces is an OS X desktop application that manages your profile picture across your Twitter account(s).  After linking your account, Faces will pull down your current avatar and display it in the grid and from there you can add any image to the grid and upload them to your account(s) with a simple drag and drop.

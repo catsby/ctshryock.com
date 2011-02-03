@@ -1,10 +1,9 @@
 --- 
-layout: post
+layout: page
 title: GithubNotifier.app
 date: 2010-06-04 08:10:39 -05:00
 permalink: github-notifier.html
-type: page
-mt_id: 38
+category: page
 ---
 [GithubNotifier][1] is a little menu-bar app that uses your Github username and API token to check your repositories for any activity in your networks.  
 
