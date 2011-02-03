@@ -5,5 +5,4 @@ title: StackExchange 404
 image: stackexchange
 alt: StackExchange 404
 category: web-errors
-permalink: /:title
 ---
