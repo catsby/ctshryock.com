@@ -1,13 +1,13 @@
 ---
-layout: post
+layout: page
 ---
 
 <dl>
-    <dt>{{post.title}}</dt>
-    <dd class="error-date">{{post.date | date_to_string}}</dd>
+    <dt>{{page.title}}</dt>
+    <dd class="error-date">{{page.date | date_to_string}}</dd>
     <dd class="error-image">    
-        <a href="/static/images/web-errors/{{post.image}}.png">
-            <img src="/static/images/web-errors/{{post.image}}_thumb.png" alt="{{post.alt}}" width="540" />  
+        <a href="/static/images/web-errors/{{page.image}}.png">
+            <img src="/static/images/web-errors/{{page.image}}_thumb.png" alt="{{alt}}" width="540" />  
         </a>
     </dd>
 </dl>
