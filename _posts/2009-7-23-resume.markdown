@@ -6,7 +6,6 @@ permalink: resume.html
 category: page
 ---
 
-##Experience 
 **Software Engineer**  
 CramerDev
 September 2010 - Present
