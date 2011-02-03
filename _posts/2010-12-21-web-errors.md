@@ -1,41 +1,27 @@
 ---
-layout: post
+layout: page
 title: Web Errors
-permalink: web-errors.html      
-type: page
+permalink: web-errors.html 
+category: page     
 ---
 
 A collection of web error/404 messages as I find them
 
+{% for error in site.categories.web-errors %}
+
 <dl>
-    <dt>nginx 502</dt>
-    <dd class="error-date">January 29th, 2011</dd>
+    <dt>{{error.title}}</dt>
+    <dd class="error-date">{{error.date | date_to_string}}</dd>
     <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/nginx-502.png">
-            <img src="http://ctshryock.com/static/images/web-errors/nginx-502_thumb.png" alt="nginx 502" title="nginx 502" width="540" />  
+        <a href="/static/images/web-errors/{{error.image}}.png">
+            <img src="/static/images/web-errors/{{error.image}}_thumb.png" alt="{{error.alt}}" width="540" />  
         </a>
     </dd>
 </dl>
-<dl>
-    <dt>StackExchange 404</dt>
-    <dd class="error-date">January 29th, 2011</dd>
-    <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/stackexchange.png">
-            <img src="http://ctshryock.com/static/images/web-errors/stackexchange_thumb.png" alt="StackExchange 404" title="StackExchange 404" width="540" />  
-        </a>
-    </dd>
-</dl>
-<dl>
-    <dt>Twitter "Fail Whale"</dt>
-    <dd class="error-date">January 28th, 2011</dd>
-    <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/Twitter.png">
-            <img src="http://ctshryock.com/static/images/web-errors/Twitter_thumb.png" alt="Twitters infamous 'Fail Whale'" title="Fail Whale" width="540" />  
-        </a>
-        <span class="error-note">This used to be real common about a year or so ago, but has been pretty scarce lately</span>
-    </dd>
-</dl>
-<dl>
+        
+{% endfor %}
+
+<!-- <dl>
     <dt>NimbleText 404</dt>
     <dd class="error-date">January 27th, 2011</dd>
     <dd class="error-image">    
@@ -111,6 +97,6 @@ A collection of web error/404 messages as I find them
     </dd>
 </dl>  
 
-
+ -->
 
 Have your own?  Send to web-errors\[at\]ctshryock\[dot\]com 
