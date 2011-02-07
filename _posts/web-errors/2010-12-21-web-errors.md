@@ -24,24 +24,6 @@ A collection of web error/404 messages as I find them
 <!--
 
 <dl>
-    <dt>Github.com 500</dt>
-    <dd class="error-date">January 17th, 2011</dd>
-    <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/github_500_full.png">
-            <img src="http://ctshryock.com/static/images/web-errors/github_500.png" alt="Github 500" title="Road Runner Style" width="540" />  
-        </a>
-    </dd>
-</dl>
-<dl>
-    <dt>Apple Support 404</dt>
-    <dd class="error-date">January 6th, 2011</dd>
-    <dd class="error-image">    
-        <a href="http://ctshryock.com/static/images/web-errors/apple-support-404-full.png">
-            <img src="http://ctshryock.com/static/images/web-errors/apple-support-404.png" alt="Apple Support" title="No support for you" width="540" />  
-        </a>
-    </dd>
-</dl>
-<dl>
     <dt>Github 404</dt>
     <dd class="error-date">January 3rd, 2011</dd>
     <dd class="error-image">    
