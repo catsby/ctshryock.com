@@ -9,4 +9,9 @@ layout: page
             <img src="/static/images/web-errors/{{page.image}}_thumb.png" alt="{{alt}}" width="540" />  
         </a>
     </dd>
+    {% if page.note %}
+    <dd class="error-note"> 
+        {{page.note}}
+    </dd>
+    {% endif %}
 </dl>

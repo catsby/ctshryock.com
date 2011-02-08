@@ -143,7 +143,7 @@ dd ol {
 /* @group web-errors */
 
 dd.error-date,
-span.error-note {
+dd.error-note {
 	font-size: smaller;
 	font-style: italic;
 	margin-bottom: 5px;
