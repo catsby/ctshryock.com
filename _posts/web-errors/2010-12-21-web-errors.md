@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Web Errors
-permalink: web-errors/index.html 
+permalink: web-errors.html 
 category: page     
 ---
 
