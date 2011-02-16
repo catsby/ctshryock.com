@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/static/style.css */
+
 html {
 	width: 100%;
 }
@@ -98,9 +100,13 @@ dl dt {
 }
 
 pre {
+	padding: 5px 0 5px 10px;
 	overflow: auto;
+	background-color: #eee;
 }
 
+pre code {;
+}
 
 dd ol {
 	margin: 0;
