@@ -1,4 +1,4 @@
-/* @override http://localhost:4000/static/style.css */
+/* @override http://ctshryock.com/static/style.css */
 
 html {
 	width: 100%;
@@ -69,10 +69,6 @@ dl dt {
 	width: 200px;
 }
 
-#post ul {
-	margin-top: 0;
-}
-
 #sidebar ul {
 	padding-left: 20px;
 }
@@ -104,13 +100,11 @@ dl dt {
 }
 
 pre {
-	padding: 5px 0 5px 10px;
 	overflow: auto;
 	background-color: #eee;
+	padding: 5px 0 5px 10px;
 }
 
-pre code {;
-}
 
 dd ol {
 	margin: 0;
