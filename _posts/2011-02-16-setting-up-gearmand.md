@@ -36,6 +36,14 @@ If you're using [MacPorts][3]
 ~$ (sudo) port install gearmand
 {% endhighlight %}    
 
+If you're on Ubuntu you can use `aptitude`
+
+{% highlight bash %}
+~$ sudo aptitude install gearman-job-server (gearman-dev)
+{% endhighlight %}
+
+Check your favorite Linux Distro's package manager for their equivalent.  
+
 Finally, you can always compile from [source][4]
 
 {% highlight bash %}
@@ -45,14 +53,6 @@ Finally, you can always compile from [source][4]
 ~$ make  
 ~$ (sudo) make install  
 {% endhighlight %}
-
-If you're on Ubuntu you can use `aptitude`
-
-{% highlight bash %}
-~$ sudo aptitude install gearman-job-server (gearman-dev)
-{% endhighlight %}
-
-Check your favorite Linux Distro's package manager for their equivalent.  
 
 ##Running
 Gearmand is typically run as a daemon in the background
