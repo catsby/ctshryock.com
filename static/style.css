@@ -69,6 +69,10 @@ dl dt {
 	width: 200px;
 }
 
+#post ul {
+	margin-top: 0;
+}
+
 #sidebar ul {
 	padding-left: 20px;
 }

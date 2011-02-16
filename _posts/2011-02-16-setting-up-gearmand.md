@@ -1,8 +1,17 @@
 ---
 layout: post
-title: Setting up Gearmand
+title: "Gearman (Part 1): Setup Gearmand"
 category: gearman
 ---
+
+##TOC
+<ul>
+{% for post in site.categories.gearman %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+<li>Gearman (Part 2): Adding jobs, doing work <em>(coming soon)</em></li>
+<li>Gearman (Part 3): More jobs, other stuff, a better title <em>(soon after Part 2)</em></li>
+</ul>
 
 [Gearman][1] has occupied my thoughts and time lately.  Gearman is a "generic application framework to farm out work to other machines or processes that are better suited to do the work".
 
