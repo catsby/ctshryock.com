@@ -27,8 +27,8 @@
 
                 <h2>pages</h2>
                 <ul>
-                    <li><a href="/" title="About">About</a></li>
-                    {% for post in site.categories.page %}
+                    {% for post in site.categories.page reversed %}
+                    
                         <li><a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
                     {% endfor %}
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
