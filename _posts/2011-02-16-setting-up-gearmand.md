@@ -4,14 +4,11 @@ title: "Gearman (Part 1): Setup Gearmand"
 category: gearman
 ---
 
-##TOC
-<ul>
-{% for post in site.categories.gearman %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-{% endfor %}
-<li>Gearman (Part 2): Adding jobs, doing work <em>(coming soon)</em></li>
-<li>Gearman (Part 3): More jobs, other stuff, a better title <em>(soon after Part 2)</em></li>
-</ul>
+**Other posts in this series**
+- Gearman (Part 1): Setup Gearmand
+- [Gearman (Part 2): Create jobs, add workers, do work][10]
+- Gearman (Part 3): More jobs, other stuff, a better title (soon after Part 2)
+
 
 [Gearman][1] has occupied my thoughts and time lately.  Gearman is a "generic application framework to farm out work to other machines or processes that are better suited to do the work".
 
@@ -54,6 +51,13 @@ Finally, you can always compile from [source][4]
 ~$ (sudo) make install  
 {% endhighlight %}
 
+Once that finishes, you should have Gearman all setup
+
+{% highlight bash %}
+~$ gearmand --version
+gearmand 0.15 - https://launchpad.net/gearmand
+{% endhighlight %}
+
 ##Running
 Gearmand is typically run as a daemon in the background
 
@@ -90,3 +94,4 @@ of libraries (for instance, it's missing [gearman-ruby][8]).
 [6]: http://gearman.org/index.php?id=getting_started#client_and_worker_api
 [7]: http://gearman.org/index.php?id=documentation
 [8]: https://rubygems.org/gems/gearman-ruby
+[10]: /gearman/2011/02/21/more-gearman.html
