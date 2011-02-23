@@ -70,10 +70,17 @@
 
         </script>
         
-        <script type="text/javascript"
-          src="http://gaug.es/track.js"
-          id="gauges-tracker"
-          data-site-id="4d62a9e1ea814913ee00000f">
-        </script>
+<script type="text/javascript">
+  (function() {
+    var t = document.createElement('script');
+    t.type = 'text/javascript'; t.async = true;
+    t.id = 'gauges-tracker';
+    t.setAttribute('data-site-id',
+                   '4d62a9e1ea814913ee00000f');
+    t.src = 'http://gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
     </body>    
 </html>
