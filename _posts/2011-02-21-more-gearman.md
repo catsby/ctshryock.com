@@ -76,7 +76,7 @@ Gearman version: 0.15
 
 *[Source here][7]*
 
-We'll start with a very simple "reverse string" job to get going.  First we'll crate the client to submit the job.  We do so by instantiating a new `GearmanClient` object, 
+We'll start with a very simple "reverse string" job to get going.  First we'll create the client to submit the job.  We do so by instantiating a new `GearmanClient` object, 
 set the server where **Gearmand** is running, and calling `do` with the *job name* and the workload:
 {% highlight php %}
 //  reverse_do.php
