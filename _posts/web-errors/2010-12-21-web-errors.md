@@ -7,19 +7,19 @@ category: page
 
 A collection of web error/404 messages as I find them
 
-{% for page in site.categories.web-errors %}
+{% for post in site.categories.web-errors %}
 
 <dl>
-    <dt>{{page.title}}</dt>
-    <dd class="error-date">{{page.date | date_to_string}}</dd>
+    <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+    <dd class="error-date">{{post.date | date_to_string}}</dd>
     <dd class="error-image">    
-        <a href="/static/images/web-errors/{{page.image}}.png">
-            <img src="/static/images/web-errors/{{page.image}}_thumb.png" alt="{{page.alt}}" width="540" />  
+        <a href="/static/images/web-errors/{{post.image}}.png">
+            <img src="/static/images/web-errors/{{post.image}}_thumb.png" alt="{{post.alt}}" width="540" />  
         </a>
     </dd>
-    {% if page.note %}
+    {% if post.note %}
     <dd class="error-note"> 
-        {{page.note}}
+        {{post.note}}
     </dd>
     {% endif %}    
 </dl>
