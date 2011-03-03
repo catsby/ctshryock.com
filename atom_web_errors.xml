@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ {% comment %}
+ Lifted from https://github.com/mojombo/mojombo.github.com/blob/master/atom.xml 
+ {% endcomment %}
+ <title>@ctshryock: Web Errors</title>
+ <link href="http://ctshryock.com/atom_web_errors.xml" rel="self"/>
+ <link href="http://ctshryock.com/web-errors/index.html"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://ctshryock.com/web-errors</id>
+ <author>
+   <name>Clint Shryock (@ctshryock)</name>
+   <email>info@ctshryock.com</email>
+ </author>
+
+ {% for error in site.posts %}
+     <entry>
+       <title>{{ error.title }}</title>
+       <link href="http://ctshryock.com{{ error.url }}"/>
+       <updated>{{ error.date | date_to_xmlschema }}</updated>
+       <id>http://ctshryock.com{{ post.id }}</id>
+       <content type="html">{{ error.content | xml_escape }}</content>
+     </entry>
+ {% endfor %}
+ 
+</feed>
