@@ -13,7 +13,7 @@ A collection of web error/404 messages as I find them
     <dt><a href="{{post.url}}">{{post.title}}</a></dt>
     <dd class="error-date">{{post.date | date_to_string}}</dd>
     <dd class="error-image">    
-        <a href="/static/images/web-errors/{{post.image}}.png">
+        <a href="/static/images/web-errors/{{post.image}}.png" title="{{post.alt}}">
             <img src="/static/images/web-errors/{{post.image}}_thumb.png" alt="{{post.alt}}" width="540" />  
         </a>
     </dd>

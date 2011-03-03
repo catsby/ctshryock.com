@@ -17,6 +17,7 @@ layout: nil
  </author>
 
  {% for error in site.posts %}
+    {% if error.category == 'web-errors' %}
      <entry>
        <title>{{ error.title }}</title>
        <link href="http://ctshryock.com{{ error.url }}"/>
@@ -24,6 +25,7 @@ layout: nil
        <id>http://ctshryock.com{{ post.id }}</id>
        <content type="html">{{ error.content | xml_escape }}</content>
      </entry>
+     {% endif %}
  {% endfor %}
  
 </feed>
