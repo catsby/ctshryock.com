@@ -21,6 +21,11 @@ server "ctshryock.com", :app, :web, :db, :primary => true                       
 #   end
 # end
 
+set :post_title, ENV['title'] if ENV['title']
+set :post_date,  ENV['date'] ? ENV['date'] : Time.now.strftime("%Y-%m-%d")
+set :category,   ENV['cat']  ? ENV['cat']  : nil
+set :ptype,       ENV['type'] ? ENV['type'] : nil
+
 namespace :deploy do
 end
 
@@ -29,21 +34,35 @@ namespace :post do
     Create a new post with a given title
   DESC
   task :default do
-    post_title = ENV['title'] if ENV['title']
-    file_name  = post_title.gsub(' ', '-')
-    puts "Creating: _posts/#{file_name}.md"
-    post_date = Time.now.strftime("%Y-%m-%d")
-    header = "
----
-layout: post
-title: \"#{post_title}\"
-category: 
----
-" 
-    new_post = File.new("_posts/#{post_date}-#{file_name}.md", "w")
-    new_post.write(header.lstrip!)
-    new_post.close
-        
+    create_post
   end
   
+end
+
+def create_post
+    puts "Creating: _posts/#{post_date}-#{post_name}.md"
+    new_post = File.new("_posts/#{post_type}#{post_date}-#{post_name}.md", "w")
+    new_post.write(create_header)
+    new_post.close
+end
+
+def create_header
+  header =  "---\n"
+  header << "layout: post\n"
+  header << "title: \"#{post_title}\"\n"
+  header << "category: #{category}\n"
+  header << "---\n" 
+  header
+end
+
+def post_name
+  post_title.gsub(' ', '-')
+end
+
+def post_type
+  if ptype == 'web-error'
+    set :category, 'web-errors'
+    set :ptype, 'web-errors/'
+  end 
+  ptype
 end
