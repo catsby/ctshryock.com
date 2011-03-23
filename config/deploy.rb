@@ -37,10 +37,18 @@ namespace :post do
     create_post
   end
   
+  desc <<-DESC
+    Create a new web-error post
+  DESC
+  task :web_error do
+    set :ptype, 'web-error'
+    create_post
+  end
+  
 end
 
 def create_post
-    puts "Creating: _posts/#{post_date}-#{post_name}.md"
+    puts "Creating: _posts/#{ptype}/#{post_date}-#{post_name}.md"
     new_post = File.new("_posts/#{post_type}#{post_date}-#{post_name}.md", "w")
     new_post.write(create_header)
     new_post.close
