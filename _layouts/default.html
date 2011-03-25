@@ -32,8 +32,9 @@
                 <h2>Pages</h2>
                 <ul>
                     {% for post in site.categories.page reversed %}
-                    
+                    {% unless post.permalink == 'macgrams.html' %}
                         <li><a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
+                    {% endunless %}
                     {% endfor %}
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
                     <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
