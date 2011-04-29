@@ -44,4 +44,3 @@ Redirect 301 /2010/12/22/web-errors.html  http://ctshryock.com/web-errors/index.
 Redirect 301 /resume  http://ctshryock.com/resume.html
 Redirect 301 /projects  http://ctshryock.com/projects.html
 Redirect 301 /web-errors/index.html /web-errors.html  
-Redirect 301 /archive.html http://ctshryock.com

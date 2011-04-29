@@ -1,4 +1,4 @@
 auto: false
 pygments: true
 exclude: ['swag', 'd.diff', 'Capfile', 'config']
-lsi: true 
+lsi: true
