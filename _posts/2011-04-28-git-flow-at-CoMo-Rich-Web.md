@@ -8,7 +8,8 @@ published: true
 
 Last night at the [CoMo Rich Web][2] meet-up I gave a quick lighting talk on using [Git-Flow][1] in your
 projects. Afterwards [Scott Davis of ThirstyHead][3] gave a great talk
-on HTML5, which I'm trying to find a link to the slides.
+on HTML5, <strike> which I'm trying to find a link to the
+slides.</strike> who's [slides are available here][7].
 
 You can view my talk at [ctshryock.github.com/git-flow-talk][4], source
 [here][5].
@@ -27,3 +28,4 @@ simplicity of ShowOff felt much more at home for me.
 [4]: http://ctshryock.github.com/git-flow-talk
 [5]: https://github.com/ctshryock/git-flow-talk
 [6]: https://github.com/schacon/showoff
+[7]: /static/pdfs/html5-1up.pdf
