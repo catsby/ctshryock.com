@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Git Flow at CoMo Rich Web"
+title: "Git Flow at CoMo Rich Web [UPDATED: 02 May 2011]"
+permalink: 2011/04/28/git-flow-at-CoMo-Rich-Web.html
 published: true 
 ---
 
