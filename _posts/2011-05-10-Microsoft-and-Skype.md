@@ -24,8 +24,12 @@ lately.
 Lastly, [this GigaOM article][6] sums up my prediction for both
 companies in this regard:
 
-> It won’t surprise me if Microsoft comes in for major heat on this decision to buy Skype &mdash; and the software company could always botch this purchase, as it often does when it buys a company. The Skype team is also full of hired guns who are likely to move on to the next opportunity rather than dealing with the famed Microsoft bureaucracy.
-
+> It won’t surprise me if Microsoft comes in for major heat on this
+> decision to buy Skype &mdash; and the software company could always
+> botch this purchase, as it often does when it buys a company. The
+> Skype team is also full of hired guns who are likely to move on to the
+> next opportunity rather than dealing with the famed Microsoft
+> bureaucracy.h
 
 [1]: http://cramerdev.com
 [2]: http://www.skype.com/intl/en/get-skype/on-your-computer/macosx/
