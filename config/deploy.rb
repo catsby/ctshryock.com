@@ -24,7 +24,7 @@ server "ctshryock.com", :app, :web, :db, :primary => true                       
 set :post_title, ENV['title'] if ENV['title']
 set :post_date,  ENV['date'] ? ENV['date'] : Time.now.strftime("%Y-%m-%d")
 set :category,   ENV['cat']  ? ENV['cat']  : nil
-set :ptype,       ENV['type'] ? ENV['type'] : nil
+set :ptype,       ENV['type'] ? ENV['type'] : "post" 
 
 namespace :deploy do
 end
@@ -56,8 +56,14 @@ end
 
 def create_header
   header =  "---\n"
-  header << "layout: post\n"
+  header << "layout: #{ptype.gsub('s/', '')}\n"
+  header << "date: #{Time.now.to_s}\n"
   header << "title: \"#{post_title}\"\n"
+  unless ptype.eql? 'post'
+    header << "image: \n"
+    header << "alt: \n" 
+    header << "note: \n" 
+  end
   header << "category: #{category}\n"
   header << "---\n" 
   header
