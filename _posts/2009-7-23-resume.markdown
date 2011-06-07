@@ -26,23 +26,21 @@ Web developer, responsible for the Missouri Department of Insurance website, inc
 
 ##Personal Projects
 
-Authro of [Growl-Transfer][8], a fledgling ruby gem that wraps file transfer
-protocols like ssh and sends Growl notices when a transfer finishes.  
-
-Designed and developed [GithubNotifier][5], a menu-bar Cocoa application to display Growl notices with updates in your repository/forks network. 
-
-Designed and developed [Faces.app][4], Cocoa application that manages Twitter profile images.
-
-Core contributor to [MGTwitterEngine][1], an Objective-C Twitter integration library for Mac OS X and iPhone.  
-
-Contributor to [CocoaREST][2], a collection of Cocoa classes to interact with RESTful services, of which I added support for Github's API.
+- Author of [Growl-Transfer][8], a fledgling ruby gem that wraps file transfer protocols like ssh and sends Growl notices when a transfer finishes.  
+- Contributor to [Octokit][14], a simple ruby wrapper for the GitHub API.
+- Designed and developed [GithubNotifier][5], a menu-bar Cocoa application to display Growl notices with updates in your repository/forks network. 
+- Designed and developed [Faces.app][4], Cocoa application that manages Twitter profile images.
+- Contributor to [MGTwitterEngine][1], an Objective-C Twitter integration library for Mac OS X and iPhone.  
+- Contributor to [CocoaREST][2], a collection of Cocoa classes to interact with RESTful services, of which I added support for Github's API.
 
 
 ##Talks
 
 - [Presentaion on Git][9] for [CoMo Rich Web Group][10]
+- [Lightning talk on using Git-Flow][11] for [CoMo Rich Web Group][10]
+- [Lightning talk on Image Kit Programming][12] for [Columbia MO CocoaHeads][13]
 
-##Arsenal
+##Toolbox
 
 - Ruby and Ruby on Rails
 - PHP5, Zend Framework and CodeIgnighter
@@ -63,3 +61,7 @@ Contributor to [CocoaREST][2], a collection of Cocoa classes to interact with RE
 [8]: https://rubygems.org/gems/growl-transfer
 [9]: https://github.com/ctshryock/GitTalk
 [10]: http://comorichweb.posterous.com/
+[11]: https://github.com/ctshryock/git-flow-talk
+[12]: https://github.com/ctshryock/ImageKit-ShowOff
+[13]: http://cocoaheads.org/us/ColumbiaMissouri/index.html
+[14]: https://github.com/pengwynn/octokit
