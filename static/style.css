@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/static/style.css */
+
 html {
 	width: 100%;
 	color: #333;
@@ -25,6 +27,11 @@ dl, dd, dt, div, blockquote, p {
 
 ul {
 	margin-top: 0px;
+}
+
+ul li {
+	padding:0;
+	padding-bottom: 5px;
 }
 
 a {
