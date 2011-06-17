@@ -33,15 +33,20 @@
                 <h2>Pages</h2>
                 <ul>
                     {% for post in site.categories.page reversed %}
-                    {% unless post.permalink == 'macgrams.html' %}
-                        <li><a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
-                    {% endunless %}
+                      <li>
+                        <a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+                        {% if post.title == 'Web Errors' %}
+                          <a href="http://feeds.feedburner.com/ctshryockWebErrors" rel="alternate" type="application/rss+xml" class="external-link" title="Feed for Web Errors">
+                              <img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0" width="16" height="16"/>
+                          </a>
+                        {% endif %}
+                      </li>
                     {% endfor %}
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
                     <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
                     <li id="archive-link">
                       <a href="/archive.html">Archive</a>
-                      <a href="http://feeds.feedburner.com/ctshryock" rel="alternate" type="application/rss+xml" class="external-link">
+                      <a href="http://feeds.feedburner.com/ctshryock" rel="alternate" type="application/rss+xml" class="external-link" title="Feed for posts">
                           <img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0" width="16" height="16"/>
                       </a>
                     </li>
