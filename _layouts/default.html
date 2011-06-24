@@ -11,13 +11,9 @@
         <link rel="stylesheet" href="/static/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/static/syntax.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link href="http://feeds.feedburner.com/ctshryock" rel="alternate" title="Clint Shryock - @ctshryock" type="application/atom+xml" />
-        {% if page.title == 'Web Errors' %}
-          <link href="http://feeds.feedburner.com/ctshryockWebErrors"
-          rel="alternate" title="@ctshryock: Web Errors" type="application/atom+xml" />
-        {% endif %}
+          <link href="http://feeds.feedburner.com/ctshryockWebErrors" rel="alternate" title="@ctshryock: Web Errors" type="application/atom+xml" />
         
         <script type="text/javascript" src="/static/js/jquery-1.6.1.min.js"></script>       
-        <script type="text/javascript" src="/static/js/jquery.pjax.js"></script>       
                                                                                     
         <!-- FancyZoom from @cabel http://www.cabel.name/2008/02/fancyzoom-10.html -->
         <script src="/static/js-global/FancyZoom.js" type="text/javascript"></script>
@@ -64,7 +60,7 @@
                 {% for post in site.posts limit:5 %}
                 <ul>
                     <li>
-                        <a href="{{post.url}}" data-pjax='#content' >{{post.title | truncatewords:6}}</a>
+                        <a href="{{post.url}}">{{post.title | truncatewords:6}}</a>
                         <br />
                         <span class="post-date">{{post.date | date_to_string}}</span>
                     </li>
