@@ -5,8 +5,10 @@ layout: page
 <dl>
     <dd class="error-date">{{page.date | date_to_string}}</dd>
     <dd class="error-image">    
-    <a href="/static/images/web-errors/{{page.image}}.png"
-      title="{{alt}}">
+    <a href="/static/images/web-errors/{{page.image}}.png" 
+      {% if page.alt %} 
+       title="{{page.alt}}" 
+      {% endif %} >
             <img src="/static/images/web-errors/{{page.image}}_thumb.png" alt="{{alt}}" width="540" />  
         </a>
     </dd>
