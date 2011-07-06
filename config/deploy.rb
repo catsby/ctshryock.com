@@ -32,7 +32,6 @@ namespace :post do
     Create a new post with a given title
   DESC
   task :default do
-    puts "Cat: #{category}"
     create_post
   end
   
