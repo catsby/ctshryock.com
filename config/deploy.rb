@@ -21,10 +21,8 @@ server "ctshryock.com", :app, :web, :db, :primary => true                       
 #   end
 # end
 
-set :post_title, ENV['title'] if ENV['title']
-set :post_date,  ENV['date'] ? ENV['date'] : Time.now.strftime("%Y-%m-%d")
-set :category,   ENV['cat']  ? ENV['cat']  : nil
-set :ptype,       ENV['type'] ? ENV['type'] : "post" 
+set :title, ENV['title'] if ENV['title']
+set :category,       ENV['cat'] ? ENV['cat'] : 'post' 
 
 namespace :deploy do
 end
@@ -34,49 +32,58 @@ namespace :post do
     Create a new post with a given title
   DESC
   task :default do
-    create_post
-  end
-  
-  desc <<-DESC
-    Create a new web-error post
-  DESC
-  task :web_error do
-    set :ptype, 'web-error'
+    puts "Cat: #{category}"
     create_post
   end
   
 end
 
 def create_post
-    puts "Creating: _posts/#{ptype}/#{post_date}-#{post_name}.md"
-    new_post = File.new("_posts/#{post_type}#{post_date}-#{post_name}.md", "w")
+    puts "Creating: #{file_path}"
+    new_post = File.new(file_path, "w")
     new_post.write(create_header)
     new_post.close
 end
 
 def create_header
   header =  "---\n"
-  header << "layout: #{ptype.gsub('s/', '')}\n"
+  header << "layout: #{post_layout}\n"
   header << "date: #{Time.now.to_s}\n"
   header << "title: \"#{post_title}\"\n"
-  unless ptype.eql? 'post'
+  if web_error
     header << "image: \n"
     header << "alt: \n" 
     header << "note: \n" 
   end
-  header << "category: #{category}\n"
+  header << "category: #{web_error.gsub('/', '')}\n" if web_error
   header << "---\n" 
   header
 end
 
 def post_name
-  post_title.gsub(' ', '-')
+  post_title.gsub(' ', '-').downcase
 end
 
-def post_type
-  if ptype == 'web-error'
-    set :category, 'web-errors'
-    set :ptype, 'web-errors/'
-  end 
-  ptype
+def post_title
+  title
+end
+
+def post_date
+  Time.now.strftime("%Y-%m-%d")
+end
+
+def post_layout
+  if category =~ /web-error/
+    'web-errors'
+  else 
+    'post'
+  end
+end
+
+def web_error
+  'web-errors/' if category =~ /web-error/
+end
+
+def file_path
+  "_posts/#{web_error}#{post_date}-#{post_name}.md"
 end
