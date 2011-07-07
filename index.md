@@ -2,8 +2,6 @@
 layout: default
 ---
 
-##@ctshryock
-
 {% include banner.md %}
 
 My name is Clint Shryock.  I develop software in Ruby, PHP, and Cocoa.  

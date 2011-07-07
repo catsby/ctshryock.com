@@ -29,7 +29,7 @@
         <div id="wrapper">
             <div id="content">
                 <div id="page-title">
-                  <h2><a href="/">@ctshryock</a> &raquo; {{page.title}}</h2>
+                  <h2><a href="/">@ctshryock</a> {% if page.title %} &raquo; {{page.title}} {% endif %}</h2>
                 </div>
                 <br class="clear" />
                 {{ content }}
