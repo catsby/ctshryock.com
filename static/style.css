@@ -12,6 +12,7 @@ body {
 
 	text-align: justify;
 }
+
 #stylistic-bar-of-awesome {
 	background: #333;
 	height: 3px;
@@ -153,6 +154,9 @@ dd ol {
 
 /* @group super awesome oreo-balls */
 
+.clear {
+  clear:both;
+}
 
 .oreo-steps {
 	clear: both;
@@ -200,4 +204,25 @@ dd.error-image {
 
 dd.web-error-post-content {
   margin: 10px 0;
+}
 /* @end */
+
+/* @group banner */
+
+#banner {
+  margin: 0 0 20px 0;
+  width: 540px;
+  height: 150px;
+  background-image: url('images/site/pair_programming_trim.jpg');
+  border: 1px solid #333;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* @end */
+
+#page-title {
+  float: left;
+  width:560px;
+}

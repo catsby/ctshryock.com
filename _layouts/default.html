@@ -3,7 +3,7 @@
     <head>
         <title>@ctshryock
             {% if page.title %}
-                : {{page.title}}
+                &raquo; {{page.title}}
             {% endif %}
         </title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -28,6 +28,10 @@
         <div id="stylistic-bar-of-awesome">&nbsp;</div>
         <div id="wrapper">
             <div id="content">
+                <div id="page-title">
+                  <h2><a href="/">@ctshryock</a> &raquo; {{page.title}}</h2>
+                </div>
+                <br class="clear" />
                 {{ content }}
             </div>
             <div id="sidebar">
