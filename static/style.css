@@ -102,6 +102,11 @@ dl dt {
 
 #sidebar ul {
 	padding-left: 20px;
+  line-height: 18px;
+}
+
+li.page-link {
+  list-style-image: url('images/site/page-link.png');
 }
 
 .post-date,
