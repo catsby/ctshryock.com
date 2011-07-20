@@ -6,11 +6,16 @@ html {
 }
 
 body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #333;
 	margin: 0;
 	padding: 0;
 	border-top: 3px solid red;
-
 	text-align: justify;
+}
+
+strong {
+  font-weight: bold;
 }
 
 #stylistic-bar-of-awesome {
