@@ -3,6 +3,7 @@ layout: page
 title: Faces.app
 date: 2010-04-14 08:17:53 -05:00
 permalink: faces-app.html
+published: false
 category: page
 ---
 <img src="http://ctshryock.com/static/images/Faces512-thumb-200x200-20.png" width="200" height="200" alt="Faces512.png" style="float: left; margin: 0 20px 20px 0;">
