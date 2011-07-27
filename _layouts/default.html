@@ -31,40 +31,17 @@
             </div>
             <div id="sidebar">
 
-                <h2>Pages</h2>
-                <ul>
-                    {% for post in site.categories.page reversed %}
-                      <li>
-                        <a href="/{{post.url}}" title="{{post.title}}">{{post.title}}</a>
-                        {% if post.title == 'Web Errors' %}
-                          <a href="http://feeds.feedburner.com/ctshryockWebErrors" rel="alternate" type="application/rss+xml" class="external-link" title="Feed for Web Errors">
-                              <img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0" width="16" height="16"/>
-                          </a>
-                        {% endif %}
-                      </li>
-                    {% endfor %}
+                <ul class="clean-list">
+                    <li><a href="/about.html" title="About Me">About</a></li>
+                    <li id="archive-link"><a href="/archive.html">Archive</a></li>
+                    <li><a href="/web-errors.html">Web Errors</a></li>
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
                     <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
-                    <li id="archive-link">
-
-                      <a href="/archive.html">Archive</a>
-                      <a href="http://feeds.feedburner.com/ctshryock" rel="alternate" type="application/rss+xml" class="external-link" title="Feed for posts">
-
-                          <img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0" width="16" height="16"/>
-                      </a>
-                    </li>
                 </ul>
-                <h2>Latest</h2>
 
-                {% for post in site.posts limit:5 %}
-                <ul>
-                    <li>
-                        <a href="{{post.url}}">{{post.title | truncatewords:6}}</a>
-                        <br />
-                        <span class="post-date">{{post.date | date_to_string}}</span>
-                    </li>
-                </ul>
-                {% endfor %}
+                <div class="about">
+
+                </div>
 
             </div>
         </div>

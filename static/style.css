@@ -34,6 +34,18 @@ ul {
 	margin-top: 0px;
 }
 
+.clean-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clean-list li {
+	margin:0;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
 ul li {
 	padding:0;
 	padding-bottom: 5px;
@@ -85,12 +97,12 @@ dl dt {
 
 
 #wrapper {
-	width: 800px;
+	width: 960px;
 	margin: 0 auto;
 }
 
 #content {
-	width: 560px;
+	width: 700px;
 	float: left;
 }
 
@@ -100,9 +112,10 @@ dl dt {
 
 #sidebar {
 	float:right;
-	width: 200px;
+	width: 240px;
 	margin: 0;
 	margin-bottom: 15px;
+	padding-top: 60px;
 }
 
 #sidebar ul {
@@ -138,7 +151,7 @@ li.page-link {
 	border-top: 3px solid #333;
 	clear: both;
 	padding: 10px 0;
-	width: 800px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -229,5 +242,6 @@ dd.web-error-post-content {
 
 #page-title {
   float: left;
-  width:560px;
+  width:700px;
+  height: 60px;
 }
