@@ -5,43 +5,52 @@ permalink: projects.html
 category: page
 ---
 
-###Web Development
+###Active
 
-- Engineer at [CramerDev][9] where I solve problems and grow businesses for a handful of clients.  We're also 
-hard at work on our own project, [GearmanHQ][10].
+- Engineer at [CramerDev][9] where I hack on [GearmanHQ][10] and other
+  projects
 
-- Former core developer for [EasyTRC][5], a Total Resource Campaign contract management system in use by several Chamber of Commerce organizations to manage their clients, customers and contracts online.
+- [Octokit][19], a simple Ruby wrapper for the GitHub API and feeds
 
-- Technology stack includes Ruby on Rails, PHP, CodeIgniter, Zend Framework, Apache, nginx, PostgreSQL and MySQL.
+- [Gearman-ruby][12], the official Ruby library for the [Gearman][13] distributed job system
 
-- Practitioner of [Git][11].
 
-###Misc
+###Limbo
 
-- Contributor to [Gearman-ruby][12], the official Ruby library for the [Gearman][13] distributed job system.
+- [GithubNotifier.app][2], an application that posts notifications on your desktop with any network activity from your Github account, via Growl notifications
 
-- Author of [Growl-Transfer][8], a ruby gem wrapper around scp / curl / wget that notifies via Growl when the transfer completes  ([source here][7]).
+- [Growl-Transfer][7], a ruby gem wrapper around scp / curl / wget that notifies via Growl when the transfer completes
 
-###Mac OS X
+###Abandoned
 
-- Designed and developed [Faces.app][1], an application for managing and updating your user profile image on Twitter via the Twitter API.
+- [Faces.app][1], an application for managing and updating your user profile image on Twitter via the Twitter API
 
-- Designed and developed [GithubNotifier.app][2], an application that posts notifications on your desktop with any network activity from your Github account, via Growl notifications.
+- Contributor to [MGTwitterEngine][3], an Objective-C Twitter integration library for Mac OS X and iPhone
 
-- Core contributor to [MGTwitterEngine][3], an Objective-C Twitter integration library for Mac OS X and iPhone.
+- Contributor to [CocoaREST][4], a collection of Cocoa classes to interact with RESTful services (including Twitter)
 
-- Contributor to [CocoaREST][4], a collection of Cocoa classes to interact with RESTful services (including Twitter).
+##Talks
+
+- [Presentaion on Git][14] for [CoMO Rich Web Group][15]
+
+- [Lightning talk on using Git-Flow][16] for [CoMO Rich Web Group][15]
+
+- [Lightning talk on Image Kit Programming][17] for [Columbia MO CocoaHeads][18]
 
 [1]: /faces-app.html
 [2]: /github-notifier.html
 [3]: http://github.com/ctshryock/MGTwitterEngine
 [4]: http://github.com/ctshryock/CocoaREST
-[5]: http://easytrc.com
-[6]: http://github.com
 [7]: https://github.com/ctshryock/growl-transfer
-[8]: https://rubygems.org/gems/growl-transfer
 [9]: http://cramerdev.com
 [10]: http://gearmanhq.com
-[11]: http://git-scm.com/
 [12]: https://github.com/gearman-ruby/gearman-ruby
 [13]: http://gearman.org
+
+
+[14]: https://github.com/ctshryock/GitTalk
+[15]: http://comorichweb.posterous.com/
+[16]: https://github.com/ctshryock/git-flow-talk
+[17]: https://github.com/ctshryock/ImageKit-ShowOff
+[18]: http://cocoaheads.org/us/ColumbiaMissouri/index.html
+[19]: https://github.com/pengwynn/octokit

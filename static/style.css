@@ -6,8 +6,8 @@ html {
 }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #333;
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	color: #333;
 	margin: 0;
 	padding: 0;
 	border-top: 3px solid red;
@@ -32,11 +32,13 @@ dl, dd, dt, div, blockquote, p {
 
 ul {
 	margin-top: 0px;
+	padding-left: 20px;
 }
 
 .clean-list {
 	list-style-type: none;
 	margin: 0;
+	margin-bottom: 25px;
 	padding: 0;
 }
 
@@ -47,8 +49,7 @@ ul {
 }
 
 ul li {
-	padding:0;
-	padding-bottom: 5px;
+	line-height: 24px;
 }
 
 a {
@@ -69,7 +70,12 @@ p {
 
 h2,h3 {
 	font-size: 1.4em;
+	color: #333;
+	font-weight: 100;
+	margin: 0;
+	margin-bottom: 5px;
 }
+
 
 #title {
 	margin-bottom: 30px;
@@ -113,14 +119,8 @@ dl dt {
 #sidebar {
 	float:right;
 	width: 240px;
-	margin: 0;
-	margin-bottom: 15px;
+	margin: 0 0 0 20px;
 	padding-top: 60px;
-}
-
-#sidebar ul {
-	padding-left: 20px;
-  line-height: 18px;
 }
 
 li.page-link {
@@ -190,7 +190,7 @@ dd ol {
 }
 
 .oreo-steps dd {
-	width: 400px;
+	width: 500px;
 	float: left;
 }
 
@@ -244,4 +244,5 @@ dd.web-error-post-content {
   float: left;
   width:700px;
   height: 60px;
+  line-height: 60px;
 }
