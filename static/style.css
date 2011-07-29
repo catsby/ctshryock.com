@@ -1,5 +1,7 @@
 /* @override http://localhost:4000/static/style.css */
 
+/* @override http://localhost:4000/static/style.css */
+
 html {
 	width: 100%;
 	color: #333;
@@ -86,6 +88,7 @@ blockquote {
 	padding: 10px;
 	border-left: 3px solid #333;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 10px;
 }
 
 .highlight {
@@ -108,7 +111,7 @@ dl dt {
 }
 
 #content {
-	width: 700px;
+	width: 680px;
 	float: left;
 }
 
