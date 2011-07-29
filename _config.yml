@@ -1,5 +1,6 @@
 auto: false
 pygments: true
 markdown: kramdown
-exclude: ['swag', 'd.diff', 'Capfile', 'config']
-lsi: true
+destination: public
+exclude: ['swag', 'd.diff', 'Capfile', 'config', 'public']
+#lsi: true
