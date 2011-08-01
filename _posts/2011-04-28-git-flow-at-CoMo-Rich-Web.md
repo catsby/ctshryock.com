@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Flow at CoMo Rich Web [UPDATED: 02 May 2011]"
+title: "Git Flow at CoMo Rich Web"
 permalink: /2011/04/28/git-flow-at-CoMo-Rich-Web.html
 published: true 
 ---
@@ -22,6 +22,7 @@ ShowOff, both in capabilities and actual usage.  Not being terrible
 graphically gifted, I often felt overwhelmed using Keynote.  The
 simplicity of ShowOff felt much more at home for me.
 
+**Update [02/05/11]:** slides available
 
 [1]: https://github.com/nvie/gitflow
 [2]: http://comorichweb.posterous.com
