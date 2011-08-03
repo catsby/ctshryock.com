@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Gearman (Part 2): Create jobs, add workers, do work"
-category: gearman
-published: true
+category: posts
+tags: gearman
 ---
 
 **Other posts in this series**

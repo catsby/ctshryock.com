@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Awesome Neighbors"
-category: personal
+category: posts
+tags: personal
 ---
 
 I'm jealous of my parent's awesome neighbors:

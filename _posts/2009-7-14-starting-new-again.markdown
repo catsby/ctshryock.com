@@ -2,7 +2,7 @@
 layout: post
 title: Starting new.  Again
 date: 2009-07-14 10:06:34 -05:00
-mt_id: 3
+category: posts
 ---
 
 

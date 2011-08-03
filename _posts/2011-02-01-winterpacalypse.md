@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Winterpacalypse
+category: posts
 ---
 
 North America, right now ([image source: NOAA][1])

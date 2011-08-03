@@ -1,6 +1,7 @@
 ---
 title: Powered by Jekyll
 layout: post
+category: posts
 ---
 
 The team took a trip to San Francisco the first weekend of December so I took advantage of the time spent waiting in the airport to migrate my site from [Movable Type][1] to [Jekyll][2].  Although I was always happy with MT, I had started looking into Jekyll simply to understand how [Github Pages][3] works, and became attached to it's simplicity while still covering all of my needs for my personal site.  This all seemed to happen at the same time I was re-imagining the purpose of this site.  

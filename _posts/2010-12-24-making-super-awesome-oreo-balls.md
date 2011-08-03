@@ -1,6 +1,8 @@
 --- 
 layout: post
-title: Making Super Awesome Oreo Balls     
+title: Making Super Awesome Oreo Balls   
+category: posts
+tags: food  
 ---        
 
 It's Christmas time _(technically past at the time of publish)_.  Christmas to me means family, friends, and Super Awesome Oreo Balls.

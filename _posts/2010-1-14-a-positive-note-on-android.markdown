@@ -2,7 +2,7 @@
 layout: post
 title: A positive note on Android
 date: 2010-01-14 07:42:21 -06:00
-mt_id: 25
+category: posts
 ---
 <p>Last night we had some friends over for dinner and drinks, and I got my first hands on experience with the <a href="http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/Mobile-Phones/Motorola-DROID-US-EN">Motorola Droid</a> and I must say it was the most impressive one yet.</p>
 

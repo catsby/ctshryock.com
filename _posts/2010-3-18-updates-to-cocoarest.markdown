@@ -2,7 +2,8 @@
 layout: post
 title: Updates to CocoaREST
 date: 2010-03-18 20:53:46 -05:00
-mt_id: 33
+category: posts
+tags: cocoa
 ---
 I've been adding support for the Github API to my fork of [CocoaREST][1].  Right now I've added: 
 

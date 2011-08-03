@@ -2,7 +2,8 @@
 layout: post
 title: Faces.app update
 date: 2010-07-26 08:53:53 -05:00
-mt_id: 41
+category: posts
+tags: cocoa, Faces.app
 ---
 
 I'm pulling the download for Faces.app for a while.  Twitter has been having a lot of issues lately with their avatar uploading, both from the API and even the site itself.  At several points it has been completely disabled from their end while they "fix" it, however the same issues seem to reoccur. 

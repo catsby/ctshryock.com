@@ -2,7 +2,8 @@
 layout: post
 title: Extending CocoaRest
 date: 2010-03-08 19:00:00 -06:00
-mt_id: 31
+category: posts
+tags: cocoa
 ---
 My latest tinker project is a [Twitterific][1] like application that monitors your [Github dashboard][2], showing both updates to who you follow and updates on any repositories, yours or forks of yours.  From what I've seen [Github's API][3] supports all of this.
 

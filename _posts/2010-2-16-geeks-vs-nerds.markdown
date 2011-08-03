@@ -2,7 +2,7 @@
 layout: post
 title: Geeks vs. Nerds
 date: 2010-02-16 10:25:13 -06:00
-mt_id: 28
+category: posts
 ---
 **Blake** : found this extremely helpful: [http://szeryf.wordpress.com/2010/02/15/textmate-shortcuts-you-should-be-using/](http://szeryf.wordpress.com/2010/02/15/textmate-shortcuts-you-should-be-using/)  
 **Clint** : nice  

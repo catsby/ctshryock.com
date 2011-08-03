@@ -3,7 +3,7 @@ layout: post
 title: Ghost gem
 date: 2010-09-30 10:02:35 -05:00
 image: dog.JPG
-mt_id: 45
+category: posts
 ---
 I typically develop sites on my local machine using custom vhosts in Apache and adding lines to my `/etc/hosts` file to point custom urls to `127.0.0.1`.  After some time that file grew to be large and sometimes tedious to update.  Enter [ghost gem][1].  Simple hostname management.
 

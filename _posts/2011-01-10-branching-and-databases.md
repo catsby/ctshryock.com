@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Branching and Databases
+category: posts
 ---
 
 <img src="http://ctshryock.com/static/images/doctrine.png" alt="Odd state with git branches and doctrine migrations" />  

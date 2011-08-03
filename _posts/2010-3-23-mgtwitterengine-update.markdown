@@ -2,7 +2,8 @@
 layout: post
 title: MGTwitterEngine update
 date: 2010-03-23 17:09:40 -05:00
-mt_id: 34
+category: posts
+tags: cocoa
 ---
 Yesterday I updated the main branch of [MGTwitterEngine][1] by combining my fork with [tarasis][2] and [alexrepty][3] forks.  With over 35 some commits in all, I felt lucky there was very little manual merging required.
 

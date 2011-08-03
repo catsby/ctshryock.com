@@ -53,3 +53,4 @@ Redirect 301 /projects  http://ctshryock.com/projects.html
 Redirect 301 /web-errors/index.html /web-errors.html  
 
 RedirectMatch permanent ^/([0-9]+)(.*)$ /posts/$1$2 
+RedirectMatch permanent ^/gearman/(.*)$ /posts/$1

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NO disintegrations!
+category: posts
 ---
 
 <a href="http://ctshryock.com/static/images/NO_disintegrations.jpg">

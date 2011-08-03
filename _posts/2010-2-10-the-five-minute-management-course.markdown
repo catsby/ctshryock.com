@@ -2,7 +2,7 @@
 layout: post
 title: The Five Minute Management Course
 date: 2010-02-10 08:27:51 -06:00
-mt_id: 27
+category: posts
 ---
 >(1) Not everyone who shits on you is your enemy.  
 >(2) Not everyone who gets you out of shit is your friend.

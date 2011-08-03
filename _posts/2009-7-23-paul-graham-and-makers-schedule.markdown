@@ -2,7 +2,7 @@
 layout: post
 title: Paul Graham and Maker's Schedule
 date: 2009-07-23 17:19:12 -05:00
-mt_id: 11
+category: posts
 ---
 Paul Graham has written an informative essay on his blog titled ["Maker's Schedule, Manager's Schedule"](http://www.paulgraham.com/makersschedule.html) that had Twitter abuzz this morning.  Definitely worth the read.  
 

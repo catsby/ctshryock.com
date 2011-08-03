@@ -3,6 +3,7 @@ layout: post
 date: 2011-07-06 08:33:17 -0500
 title: "Apachectl on Lion"
 published: false
+category: posts
 ---
 
 

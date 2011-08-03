@@ -2,8 +2,9 @@
 layout: post
 title: iPhone
 date: 2009-08-18 18:02:27 -05:00
-mt_id: 16
+category: posts
 ---
+
 I finally sprung for an iPhone, picking up a new shiny 3Gs over the weekend.  I'm still getting used to it, my previous phone was very "dumb", but honestly I'm having mixed feelings about the constant connection.  I know now that I can pretty much always check [Twitter](http://twitter.com/ctshryock "ctshryock on twitter"), but that doesn't mean I *should*.  Frankly there are many times I enjoy being completely disconnected, but now I can't really do that unless I leave my phone off/behind.  
 
 I'm very excited to start developing though.  As the internet becomes more and more accessible through devices like this, it becomes more and more important to make our sites compatible and in some situations optimized for small screen size.   

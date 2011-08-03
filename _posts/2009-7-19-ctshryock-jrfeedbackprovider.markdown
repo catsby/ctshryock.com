@@ -2,8 +2,10 @@
 layout: post
 title: ctshryock / jrfeedbackprovider
 date: 2009-07-19 11:47:26 -05:00
-mt_id: 7
+category: posts
+tags: cocoa
 ---
+
 I forked the [JRFeedbackProvider](http://github.com/rentzsch/jrfeedbackprovider/tree/master) project on [github](http://github.com/) yesterday and made two commits that have already been pulled and merged into the main branch.  They're small, one adds a regular expression check on the email address sent in the php file to check it's format as a valid email address, the other adjusts the NSTextView's NSTextStorage to remove the bold font when using `showFeedbackWithBugDetails:` to pre-populate the textview with bug details.
 
 JRFeedbackProvider is a 'nonviral cocoa source for implementing an application feedback panel' .  In short, it provides your users a standardized in-app method of providing feedback, from bug reports to to feature and support requests.  The two main approaches are to use the default details pane, which asks basic questions for each category separated into three tabs/panes, and another option which allows the developer to pre-fil the bug report pane with details supplied from within the app.

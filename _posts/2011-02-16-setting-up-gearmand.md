@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Gearman (Part 1): Setup Gearmand"
-category: gearman
+category: posts
+tags: gearman
 ---
 
 **Other posts in this series**

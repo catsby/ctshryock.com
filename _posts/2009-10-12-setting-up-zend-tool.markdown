@@ -2,8 +2,9 @@
 layout: post
 title: Using Zend Tool
 date: 2009-10-12 18:41:15 -05:00
-mt_id: 18
+category: posts
 ---
+
 [Zend Tool](http://framework.zend.com/wiki/display/ZFDEV/Zend+Tool+Initiative "Zend Tool Initiative") is a powerful command-line script to help generate Zend Framework "units" as I call them, from the complete initial application structure to controllers, or actions in controllers that already exist.  
 
 Though released a the incubator a few versions back, I've found it to be more stable and easier to setup just recently.  Fortunately I just did a clean install and lost my setup of Zend Tool, giving me the chance to blog about it here.

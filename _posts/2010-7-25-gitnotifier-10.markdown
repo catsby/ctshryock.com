@@ -2,6 +2,8 @@
 layout: post
 title: Github Notifier 1.0
 date: 2010-07-25 13:54:00 -05:00
+category: posts
+tags: cocoa, Github Notifier
 ---
 I just released version 1.0 of GithubNotifier, a little menu-bar app I've been tinkering with for the past week or so.  It uses your Github username and API token to check your repositories for any activity in your networks.  
 

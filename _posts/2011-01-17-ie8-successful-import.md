@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Importing browser preferences in IE8
+category: posts
 ---
 
 IE8 offered to import my browser settings.  Firefox was the only browser available (even though I have Chrome installed).  

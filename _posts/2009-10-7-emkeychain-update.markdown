@@ -2,8 +2,9 @@
 layout: post
 title: EMKeychain update
 date: 2009-10-07 12:35:08 -05:00
-mt_id: 17
+category: posts
 ---
+
 I originally found [EMKeychain](http://extendmac.com/EMKeychain/ "EMKeychain from Extendmac") a few months back and added it to my project to take over managing interactions between my app and the Keychain.  It worked well until I updated to Snow Leopard and started using the LLVM GCC 4.2 compiler.  Doing so threw some new errors about non-explicit casts and deprecated methods.  I went in search of an update on Extendmac's site and by chance found [@sdegutis](http://twitter.com/sdegutis)'s [fork of the project on GitHub](http://github.com/sdegutis/EMKeychain "EMKeychain on GitHub").  
 
 I forked the project [here](http://github.com/ctshryock/EMKeychain "EMKeychain ctshryock fork") and started replacing my current EMKeychain setup with this new one.  The newer isn't terribly different but it went from 4 files to 2, and we're not using "proxy" object anymore instead just class methods for getting / creating keychain items.

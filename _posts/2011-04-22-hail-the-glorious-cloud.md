@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hail the Glorious Cloud"
+category: posts
 ---
 
 On April 21st 2011 [Amazon's AWS][5] experienced a lot of downtime, upwards

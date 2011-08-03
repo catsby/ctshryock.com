@@ -2,7 +2,8 @@
 layout: post
 title: Update to ctshryock/MGTwitterEngine
 date: 2009-10-15 16:44:30 -05:00
-mt_id: 21
+category: posts
+tags: cocoa
 ---
 Today I posted my update to [ctshryock/MGTwitterEngine](http://github.com/ctshryock/MGTwitterEngine "My fork of MGTwitterEngine") which allows you to use the API's `update_profile_image` and `update_profile_background_image`.  I added to the demo app a window that lets you select an image for either profile image or background image to see it in action.
 

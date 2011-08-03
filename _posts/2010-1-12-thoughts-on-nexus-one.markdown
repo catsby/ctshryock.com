@@ -2,7 +2,7 @@
 layout: post
 title: Thoughts on Nexus One
 date: 2010-01-12 08:25:56 -06:00
-mt_id: 24
+category: posts
 ---
 This [Boy Genius Report][1] has some thoughts on the Nexus One that I've always held (although the author seems to feel more strongly about them) 
 

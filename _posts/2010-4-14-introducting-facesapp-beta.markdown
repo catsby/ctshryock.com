@@ -2,7 +2,8 @@
 layout: post
 title: Introducting Faces.app beta
 date: 2010-04-14 07:58:37 -05:00
-mt_id: 35
+category: posts
+tags: cocoa, Faces.app
 ---
 <img src="http://ctshryock.com/static/images/Faces512-thumb-150x150-20.png" width="150" height="150" alt="Faces512.png" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" />
 

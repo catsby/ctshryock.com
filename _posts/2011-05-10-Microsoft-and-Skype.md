@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microsoft and Skype"
-published: true
+category: posts
 ---
 
 A company whos product I use day in and day out as part of my job is

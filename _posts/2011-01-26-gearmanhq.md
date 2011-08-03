@@ -1,6 +1,8 @@
 ---
 layout: post
 title: GearmanHQ
+category: posts
+tags: gearman
 ---
 
 

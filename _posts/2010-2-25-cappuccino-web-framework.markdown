@@ -2,7 +2,7 @@
 layout: post
 title: Cappuccino web framework
 date: 2010-02-25 06:09:56 -06:00
-mt_id: 29
+category: posts
 ---
 > [@rentzsch][5]: yup, I'm sold. Awesome tech+community.
 

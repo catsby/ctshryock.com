@@ -2,7 +2,7 @@
 layout: post
 title: Getting acquainted with Cinderella
 date: 2010-09-18 13:57:12 -05:00
-mt_id: 44
+category: posts
 ---
 For over 3 years I've used [MacPorts][1] to setup my development environment on Mac OS X, but with a recent reformat, I decided to forego `port` in favor of `brew`.  I've switched to [Homebrew][3] for my package management, and I've gone with [Cinderella][3] specifically for web development.
 

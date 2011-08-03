@@ -2,7 +2,7 @@
 layout: post
 title: No Tweet 'till November
 date: 2010-10-11 05:00:00 -05:00
-mt_id: 46
+category: posts
 ---
 I'm taking a break from Twitter, effective today, October 11th 2010, until November 1st.  I've removed Twitteriffic and Tweetie from my iPhone and MacBook, as well as the Facebook app for iPhone.  
 
