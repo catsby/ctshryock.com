@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Git Flow at CoMo Rich Web"
-permalink: /2011/04/28/git-flow-at-CoMo-Rich-Web.html
 category: posts
 ---
 
