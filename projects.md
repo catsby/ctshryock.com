@@ -32,9 +32,8 @@ category: page
 ##Talks
 
 - [Presentaion on Git][14] for [CoMO Rich Web Group][15]
-
 - [Lightning talk on using Git-Flow][16] for [CoMO Rich Web Group][15]
-
+- [Lightning talk on Git in Practice][20] for [CoMO Rich Web Group][15] ([source][21])
 - [Lightning talk on Image Kit Programming][17] for [Columbia MO CocoaHeads][18]
 
 [1]: /faces-app.html
@@ -54,3 +53,5 @@ category: page
 [17]: https://github.com/ctshryock/ImageKit-ShowOff
 [18]: http://cocoaheads.org/us/ColumbiaMissouri/index.html
 [19]: https://github.com/pengwynn/octokit
+[20]: http://comorichwebgroup.github.com/git-in-practice/#1
+[21]: https://github.com/ctshryock/git-in-practice
