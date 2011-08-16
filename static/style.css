@@ -1,7 +1,3 @@
-/* @override http://localhost:4000/static/style.css */
-
-/* @override http://localhost:4000/static/style.css */
-
 html {
 	width: 100%;
 	color: #333;
@@ -114,20 +110,23 @@ dl dt {
 
 
 #wrapper {
-	width: 960px;
-	margin: 0 auto;
+	font: left;
+	margin: 0 100px;
+	min-width: 960px;
 }
 
 #content {
-	width: 680px;
+	width: 75%;
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 #sidebar {
 	float:right;
-	width: 240px;
-	margin: 0 0 0 20px;
-	padding-top: 80px;
+	width: 20%;
+	margin: 0;
+	padding: 80px 0 0 20px;
 }
 
 li.page-link {
@@ -158,7 +157,6 @@ li.page-link {
 	border-top: 3px solid #333;
 	clear: both;
 	padding: 10px 0;
-	width: 960px;
 	margin: 0 auto;
 }
 
@@ -215,6 +213,19 @@ dd ol {
 
 /* @group web-errors */
 
+dl.error-grid,
+dl.error-grid-last {
+	width: 200px;
+	height: 250px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+dl.error-grid-last {
+	border-bottom: none;
+}
+
 dd.error-date,
 dd.error-note {
 	font-size: smaller;
@@ -224,12 +235,19 @@ dd.error-note {
 
 dd.error-image {
 	border: 1px solid #ccc;
-	width:540px;
+	width: 200px;
 }
 
 dd.web-error-post-content {
   margin: 10px 0;
 }
+
+#a-call-for-errors {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+
 /* @end */
 
 /* @group banner */
