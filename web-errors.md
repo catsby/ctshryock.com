@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: default
 title: Web Errors
-permalink: web-errors.html 
-category: page     
 ---
 
 A collection of web error/404 messages as I find them
