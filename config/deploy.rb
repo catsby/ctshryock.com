@@ -62,7 +62,7 @@ end
 
 def post_layout
   if category =~ /web-error/
-    'web-errors'
+    'web-error'
   else 
     'post'
   end

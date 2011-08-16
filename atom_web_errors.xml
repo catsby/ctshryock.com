@@ -8,15 +8,15 @@ layout: nil
  {% endcomment %}
  <title>@ctshryock: Web Errors</title>
  <link href="http://ctshryock.com/atom_web_errors.xml" rel="self"/>
- <link href="http://ctshryock.com/web-errors/index.html"/>
+ <link href="http://ctshryock.com/web-errors.html"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://ctshryock.com/web-errors</id>
  <author>
    <name>Clint Shryock (@ctshryock)</name>
-   <email>info@ctshryock.com</email>
+   <email>web-errors@ctshryock.com</email>
  </author>
 
- {% for error in site.posts %}
+ {% for error in site.categories.web-errors %}
     {% if error.category == 'web-errors' %}
      <entry>
        <title>{{ error.title }}</title>
