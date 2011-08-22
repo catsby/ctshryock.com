@@ -13,16 +13,3 @@ I started working with Cocoa and Objective-c in 2004 with my first Apple compute
 
 Currently I work for a web development company based out of Iowa City, Iowa, while I reside in central Missouri.  I work with PHP, Ruby on Rails, Rack apps, Jekyll, Mac, iOS development, basically almost anything that grabs my interest.  
 
-
-
-&nbsp;  
-
-  
-&nbsp;  
-
-  
-&nbsp;  
-
-&nbsp;  
-
-Hi Zach
