@@ -219,8 +219,8 @@ dd ol {
 
 dl.error-grid,
 dl.error-grid-last {
-	width: 200px;
-	height: 250px;
+	width: 150px;
+	height: 200px;
 	float: left;
 	border-bottom: 1px solid #ccc;
 	padding: 10px;
@@ -239,7 +239,7 @@ dd.error-note {
 
 dd.error-image {
 	border: 1px solid #ccc;
-	width: 200px;
+	width: 150px;
 }
 
 dd.web-error-post-content {

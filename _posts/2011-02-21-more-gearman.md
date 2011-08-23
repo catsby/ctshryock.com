@@ -6,6 +6,7 @@ tags: gearman
 ---
 
 **Other posts in this series**
+
 - [Gearman (Part 1): Setup Gearmand][3]
 - Gearman (Part 2): Create jobs, add workers, do work
 - Gearman (Part 3): More jobs, other stuff, a better title (soon after Part 2)
