@@ -3,7 +3,6 @@ layout: page
 ---
 
 <dl>
-    <dd class="error-date">{{page.date | date_to_string}}</dd>
     <dd class="error-image">    
     <a href="/static/images/web-errors/{{page.image}}.png" 
       {% if page.alt %} 
@@ -12,6 +11,7 @@ layout: page
             <img src="/static/images/web-errors/{{page.image}}_thumb.png" alt="{{alt}}" width="540" />  
         </a>
     </dd>
+    <dd class="error-date">{{page.date | date_to_string}}</dd>
     {% if page.note %}
     <dd class="error-note"> 
         {{page.note}}
