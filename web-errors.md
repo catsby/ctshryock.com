@@ -8,7 +8,7 @@ A collection of web error/404 messages as I find them
 {% for post in site.categories.web-errors %}
 
 <dl class="error-grid">
-    <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+    <dt><h3><a href="{{post.url}}">{{post.title}}</a></h3></dt>
     <dd class="error-image">
         <a href="/static/images/web-errors/{{post.image}}.png" title="{{post.alt}}">
             <img src="/static/images/web-errors/{{post.image}}_thumb.png" alt="{{post.alt}}" width="150" />  

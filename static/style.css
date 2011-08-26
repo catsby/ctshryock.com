@@ -1,7 +1,5 @@
 /* @override http://ctshryock.local/static/style.css */
 
-/* @override http://ctshryock.local/static/style.css */
-
 html {
 	width: 100%;
 	color: #333;
@@ -19,6 +17,13 @@ body {
 strong {
   font-weight: bold;
 }
+
+h1,h2,h3 {
+	font-family: 'Droid Serif', serif;
+	color: #333;
+	margin: 0;
+}
+
 
 #stylistic-bar-of-awesome {
 	background: #333;
@@ -70,22 +75,22 @@ p {
 	margin-bottom: 10px;
 }
 
-#post h2,
-#post h3 {
-	font-size: 1.6em;
-	color: #333;
-	font-weight: 300;
-	margin: 0;
+
+h2,
+h3 {
 	margin-bottom: 5px;
+	margin-top: 26px;
 }
 
-#post h2 {
-	margin-top: 30px;
-}
-
-#post h3 {
+h2 {
 	font-size: 1.2em;
 }
+
+h3 {
+	font-size: 1.0em;
+	margin-top: 5px;
+}
+
 
 #title {
 	margin-bottom: 30px;
@@ -223,7 +228,8 @@ dl.error-grid-last {
 	height: 200px;
 	float: left;
 	border-bottom: 1px solid #ccc;
-	padding: 10px;
+	padding: 0px;
+	padding-right: 13px;
 }
 
 dl.error-grid-last {
