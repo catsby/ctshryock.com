@@ -248,6 +248,10 @@ dd.error-image {
 	width: 150px;
 }
 
+#post dd.error-image {
+	width: 540px;
+}
+
 dd.web-error-post-content {
   margin: 10px 0;
 }
