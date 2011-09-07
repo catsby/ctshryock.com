@@ -43,7 +43,7 @@ def create_header
     header << "alt: \n" 
     header << "note: \n" 
   end
-  header << "category: #{web_error.gsub('/', '')}\n" if web_error
+  header << "category: #{get_category}"
   header << "---\n" 
   header
 end
@@ -74,4 +74,12 @@ end
 
 def file_path
   "_posts/#{web_error}#{post_date}-#{post_name}.md"
+end
+
+def get_category
+  if web_error
+    "#{web_error.gsub('/', '')}\n" 
+  else
+    "posts\n"
+  end
 end
