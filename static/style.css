@@ -287,3 +287,9 @@ dd.web-error-post-content {
 
   margin-bottom: 20px;
 }
+
+.source {
+  text-align: right;
+  padding-right: 13px;
+  font-style:italic;
+}
