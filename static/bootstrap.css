@@ -1,3 +1,5 @@
+/* @override http://ctshryock.local/static/bootstrap.css */
+
 /*!
  * Bootstrap v1.2.0
  *
@@ -1989,4 +1991,110 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 }
 .popover .content p, .popover .content ul, .popover .content ol {
   margin-bottom: 0;
+}
+
+/* tweaks */
+body {
+	border-top: 3px solid red;
+}
+
+#stylistic-bar-of-awesome {
+	background: #333;
+	height: 3px;
+	margin-left: 45px;
+	margin-top: -3px;
+}
+
+#footer {
+  text-align:center;
+	border-top: 3px solid #333;
+	padding: 10px 0;
+}
+
+.post-date,
+.post-date-archive {
+	color: #555;
+}
+
+.post-date {
+	font-size: smaller;
+}
+
+.post-date-archive {
+	float: right;
+}
+
+.external-link {
+	float: right;
+}
+
+.archive {
+	margin-bottom: 35px;
+}
+
+.archive li {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+  line-height:24px;
+}
+
+#content {
+  margin-left:0;
+}
+
+/* @group web-errors */
+
+dl.error-grid,
+dl.error-grid-last {
+	width: 150px;
+	height: 200px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	padding: 0px;
+	padding-right: 13px;
+}
+
+dl.error-grid-last {
+	border-bottom: none;
+}
+
+dd.error-date,
+dd.error-note {
+	font-size: smaller;
+	font-style: italic;
+	margin-bottom: 13px;
+}
+
+dd.error-image {
+	border: 1px solid #ccc;
+	width: 150px;
+}
+
+#post dd.error-image {
+	width: 540px;
+}
+
+dd.web-error-post-content {
+  margin: 10px 0;
+}
+
+#a-call-for-errors {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+
+/* @end */
+
+.feed {
+	float: right;
+	background: url('images/site/feed-icon-14x14.png') no-repeat center center;
+	line-height: 24px;
+	color: #feffff;
+	width: 24px;
+	height: 24px;
+}
+
+a.feed:hover {
+	text-decoration: none;
 }

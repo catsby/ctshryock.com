@@ -9,7 +9,6 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="author" content="Clint Shryock" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="/static/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/static/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/static/syntax.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link href="http://feeds.feedburner.com/ctshryock" rel="alternate" title="Clint Shryock - @ctshryock" type="application/atom+xml" />
@@ -23,25 +22,20 @@
     </head>
     <body onload="setupZoom()">
         <div id="stylistic-bar-of-awesome">&nbsp;</div>
-        <div id="wrapper">
-            <div id="content">
-                <div id="page-title">
-                  <h2><a href="/">@ctshryock</a> {% if page.title %} &raquo; {{page.title}} {% endif %}</h2>
-                </div>
-                <br class="clear" />
+        <div id="wrapper" class="container">
+          <div class="row">
+            <h2><a href="/">@ctshryock</a> {% if page.title %} &raquo; {{page.title}} {% endif %}</h2>
+            <div id="content" class="span-two-thirds column">
                 {{ content }}
             </div>
-            <div id="sidebar">
+            <div id="sidebar" class="span-one-third column">
 
-                <ul class="clean-list">
+                <ul class="unstyled archive">
                     <li><a href="/about.html" title="About">About</a></li>
-                    <li><a href="/archive.html" title="Archive">Archive</a></li>
+                    <li><a href="/archive.html" title="Archive">Archive</a><a class="feed" href="http://feeds.feedburner.com/ctshryock">&nbsp;</a></li>
                     <li><a href="/projects.html" title="Projects">Projects</a></li>
                     <li><a href="/resume.html" title="Resume">Resume</a></li>
-                    <li><a href="/web-errors.html">Web Errors</a></li>
-                </ul>
-
-                <ul class="clean-list">
+                    <li><a href="/web-errors.html">Web Errors</a><a class="feed" href="http://feeds.feedburner.com/ctshryockWebErrors">&nbsp;</a></li>
                     <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
                     <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
                 </ul>
@@ -55,11 +49,14 @@
                 {% endunless %}
 
             </div>
-        </div>
-        <div id="footer">
-            info [at] ctshryock [dot] com<br />
-            site powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a><br><br>
-            Doing what he must.  Because he can.
+          </div>
+          <div id="footer" class="row">
+            <div class="span-one-third columns offset-one-third">
+              info [at] ctshryock [dot] com<br />
+              Site powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a><br><br>
+              For Science
+            </div>
+          </div>
         </div>
         <script type="text/javascript">
 
