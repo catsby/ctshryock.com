@@ -2038,9 +2038,6 @@ body {
   line-height:24px;
 }
 
-#content {
-  margin-left:0;
-}
 
 /* @group web-errors */
 
@@ -2088,7 +2085,7 @@ dd.web-error-post-content {
 
 .feed {
 	float: right;
-	background: url('images/site/feed-icon-14x14.png') no-repeat center center;
+	background: url('/static/images/site/feed-icon-14x14.png') no-repeat center center;
 	line-height: 24px;
 	color: #feffff;
 	width: 24px;
