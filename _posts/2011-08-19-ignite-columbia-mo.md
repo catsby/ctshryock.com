@@ -33,7 +33,14 @@ is learning. Hacking is breaking down limitations and going beyond them.
 
 And it certainly isn't isolated to computers and software.
 
+Thanks to Scott over at [PenguinSpark][3] for his work organizing the
+event.
+
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/mUN-AOzPzgM?hd=1" frameborder="0"></iframe>
 
 
 [1]: http://igniteshow.com/
 [2]: http://socialmediaclub.org/chapter/social-media-club-mid-missouri
+[3]: http://penguinspark.com/

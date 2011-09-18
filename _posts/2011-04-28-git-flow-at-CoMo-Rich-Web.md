@@ -21,8 +21,6 @@ ShowOff, both in capabilities and actual usage.  Not being terrible
 graphically gifted, I often felt overwhelmed using Keynote.  The
 simplicity of ShowOff felt much more at home for me.
 
-**Update [02/05/11]:** slides available
-
 [1]: https://github.com/nvie/gitflow
 [2]: http://comorichweb.posterous.com
 [3]: http://thirstyhead.com/
