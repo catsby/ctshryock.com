@@ -1,5 +1,7 @@
 /* @override http://ctshryock.local/static/bootstrap.css */
 
+/* @override http://ctshryock.local/static/bootstrap.css */
+
 /*!
  * Bootstrap v1.2.0
  *
@@ -2063,8 +2065,13 @@ dd.error-note {
 }
 
 dd.error-image {
-	border: 1px solid #ccc;
+
 	width: 150px;
+}
+
+dd.error-image img {
+	padding: 1px;
+	border: 1px solid #ccc;
 }
 
 #post dd.error-image {
