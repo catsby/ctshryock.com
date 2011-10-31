@@ -9,3 +9,8 @@ category: web-errors
 ---
 
 Bugs withing bugs...
+
+
+From [@sferik][1]
+
+[1]: http://twitter.com/#!/sferik
