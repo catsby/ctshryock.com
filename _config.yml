@@ -1,5 +1,5 @@
 auto: false
 pygments: true
 markdown: kramdown
-exclude: ['swag', 'd.diff', 'Capfile', 'config', 'public']
+exclude: ['swag', 'd.diff', 'Capfile', 'config', 'public', 'Gemfile', 'Gemfile.lock', 'README.md']
 # lsi: true
