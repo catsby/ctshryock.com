@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2011-11-09 08:23:51 -0600
-title: "That 80s Guy is running Mozilla"
+title: "That 80's Guy is running Mozilla"
 category: posts
 ---
 
