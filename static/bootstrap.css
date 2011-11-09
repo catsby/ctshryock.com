@@ -2005,7 +2005,8 @@ body {
 }
 
 #footer {
-  text-align:center;
+	margin-top: 13px;
+  	text-align:center;
 	border-top: 3px solid #333;
 	padding: 10px 0;
 }
@@ -2118,4 +2119,16 @@ h2 {
 
 #post	{
 	padding-top: 3px;
+}
+
+#banner {
+  margin: 20px auto;
+  margin-top: 0;
+  width: 620px;
+  height: 150px;
+  background: url('images/site/pair_programming_trim.jpg') top center no-repeat;
+  border: 1px solid #333;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }

@@ -1,5 +1,5 @@
 auto: false
 pygments: true
-markdown: kramdown
+markdown: redcarpet
 exclude: ['swag', 'd.diff', 'Capfile', 'config', 'public', 'Gemfile', 'Gemfile.lock', 'README.md']
 # lsi: true

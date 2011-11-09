@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 permalink: archive.html
 title: Archive
 category: archive
