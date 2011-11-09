@@ -1,7 +1,4 @@
 /* @override http://ctshryock.local/static/bootstrap.css */
-
-/* @override http://ctshryock.local/static/bootstrap.css */
-
 /*!
  * Bootstrap v1.2.0
  *
@@ -2034,6 +2031,10 @@ body {
 	margin-bottom: 35px;
 }
 
+.index {
+	margin-top: 62px;
+}
+
 .archive li {
 	margin-bottom: 5px;
 	border-bottom: 1px solid #dddddd;
@@ -2101,4 +2102,20 @@ dd.web-error-post-content {
 
 a.feed:hover {
 	text-decoration: none;
+}
+
+#post img {
+	padding: 13px 0;
+}
+
+#wrapper {
+	margin-top: 13px;
+}
+
+h2 {
+	margin: 13px 0;
+}
+
+#post	{
+	padding-top: 3px;
 }

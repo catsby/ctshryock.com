@@ -24,12 +24,12 @@
         <div id="stylistic-bar-of-awesome">&nbsp;</div>
         <div id="wrapper" class="container">
           <div class="row">
-            <h2><a href="/">@ctshryock</a> {% if page.title %} &raquo; {{page.title}} {% endif %}</h2>
             <div id="content" class="span-two-thirds column">
+              {% if page.title %} <h2> {{page.title}} </h2>{% endif %}
               {{ content }}
             </div>
             <div id="sidebar" class="span-one-third column">
-
+                <h2><a href="/">@ctshryock</a></h2> 
                 <ul class="unstyled archive">
                     <li><a href="/about.html" title="About">About</a></li>
                     <li><a href="/archive.html" title="Archive">Archive</a><a class="feed" href="http://feeds.feedburner.com/ctshryock">&nbsp;</a></li>

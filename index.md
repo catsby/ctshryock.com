@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ul class="unstyled archive">
+<ul class="unstyled archive index">
 {% for post in site.categories.posts limit:10 %}
   <li><a href="{{post.url}}" >{{post.title}}</a><span class="post-date-archive">{{post.date | date: "%b %d %Y" }} </span></li>
 {% endfor %}
