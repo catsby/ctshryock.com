@@ -5,3 +5,5 @@ google*.html
 robots.txt
 .DS_Store
 .rbenv-*
+.bundle
+bin
