@@ -30,9 +30,11 @@ First create a new rails app, heroku app, and initialize a git repo:
 Launch your favorite editor and make some standard adjustments in your
 `Gemfile`, just as a demonstration:
 
+{% highlight ruby %}
     ...
     gem 'sqlite3'
     ...
+{% endhighlight %}
 
 becomes
   
