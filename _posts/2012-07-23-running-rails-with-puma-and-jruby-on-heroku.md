@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2012-07-23 08:22:18 -0500
-title: "Running Rails with Puma on Heroku and JRuby"
+title: "Running Rails with Puma and JRuby on Heroku"
 category: posts
 ---
 
