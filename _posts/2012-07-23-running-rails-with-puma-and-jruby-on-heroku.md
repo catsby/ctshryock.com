@@ -16,7 +16,7 @@ and get setup with JRuby.
 
 ## Create a new Rails 3.x app with JRuby
 
-_Note: I'm not covering the specifics other than telling you to use [RVM][10] or [rbenv][11] to setup JRuby (I'm running 1.6.7.2)._
+Note: I'm not covering the specifics other than telling you to use [RVM][10] or [rbenv][11] to setup JRuby (I'm running 1.6.7.2)
 
 First create a new rails app
 

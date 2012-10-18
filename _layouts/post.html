@@ -2,16 +2,4 @@
 layout: default
 ---
 
-
 {{ content }}
-
-<div id="related">
-  <h3>Related Posts</h3>
-  <ul>
-    {% for post in site.related_posts limit:3 %}
-        {% unless post.type == 'page' %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endunless %}
-    {% endfor %}
-  </ul>
-</div>

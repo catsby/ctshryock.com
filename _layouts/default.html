@@ -1,75 +1,32 @@
-<!doctype html>
-<html>
-    <head>
-        <title>@ctshryock
-            {% if page.title %}
-                | {{page.title}}
-            {% endif %}
-        </title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="author" content="Clint Shryock" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="/static/bootstrap.css" type="text/css" media="screen" title="Twitter Bootstrap" charset="utf-8">
-        <link rel="stylesheet" href="/static/pygments.css" type="text/css" media="screen" title="no title" charset="utf-8">
-        <link href="http://feeds.feedburner.com/ctshryock" rel="alternate" title="Clint Shryock - @ctshryock" type="application/atom+xml" />
-        <link href="http://feeds.feedburner.com/ctshryockWebErrors" rel="alternate" title="@ctshryock: Web Errors" type="application/atom+xml" />
-        
-        <script type="text/javascript" src="/static/js/jquery-1.6.1.min.js"></script>       
-                                                                                    
-        <!-- FancyZoom from @cabel http://www.cabel.name/2008/02/fancyzoom-10.html -->
-        <script src="/static/js-global/FancyZoom.js" type="text/javascript"></script>
-        <script src="/static/js-global/FancyZoomHTML.js" type="text/javascript"></script>
-    </head>
-    <body onload="setupZoom()">
-        <div id="stylistic-bar-of-awesome">&nbsp;</div>
-        <div id="wrapper" class="container">
-          <div class="row">
-            <article class="span-two-thirds column">
-              {% if page.title %} <h2> {{page.title}} </h2>{% endif %}
-              {{ content }}
-            </article>
-            <div id="sidebar" class="span-one-third column">
-                <h2><a href="/">@ctshryock</a></h2> 
-                <ul class="unstyled archive">
-                    <li><a href="/about.html" title="About">About</a></li>
-                    <li><a href="/archive.html" title="Archive">Archive</a><a class="feed" href="http://feeds.feedburner.com/ctshryock">&nbsp;</a></li>
-                    <li><a href="/projects.html" title="Projects">Projects</a></li>
-                    <li><a href="/web-errors.html">Web Errors</a><a class="feed" rel="alternate" href="http://feeds.feedburner.com/ctshryockWebErrors">&nbsp;</a></li>
-                    <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
-                    <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
-                </ul>
+---
+layout: home
+---
 
-                {% unless page.permalink == "about.html" %}
-                <div class="about">
-                  <h2>About</h2>
-                  My name is Clint Shryock.  I develop things in Ruby, PHP, and Cocoa.  
-                  I live in central Missouri, where the weather is beautiful 4 months of the year.
-                </div>
-                {% endunless %}
+  <div class="row">
+    <div class="span13">
+      <div class="span8">
+        {% if page.title %} <h1> {{page.title}} </h1>{% endif %}
+        {{ content }}
+      </div>
+      <div class="span3">
+          <h2><a href="/">@ctshryock</a></h2> 
+          <ul class="unstyled archive">
+              <li><a href="/about.html" title="About">About</a></li>
+              <li><a href="/archive.html" title="Archive">Archive</a><a class="feed" href="http://feeds.feedburner.com/ctshryock">&nbsp;</a></li>
+              <li><a href="/projects.html" title="Projects">Projects</a></li>
+              <li><a href="/web-errors.html">Web Errors</a><a class="feed" rel="alternate" href="http://feeds.feedburner.com/ctshryockWebErrors">&nbsp;</a></li>
+              <li><a href="http://github.com/ctshryock" title="ctshryock on Github.com" target="_blank">Github<span class="external-link" title="external link">&#x279A;</span></a></li>
+              <li><a href="http://twitter.com/ctshryock" title="ctshryock on Twitter.com" target="_blank">Twitter<span class="external-link" title="external link">&#x279A;</span></a></li>
+          </ul>
 
-            </div>
+          {% unless page.permalink == "about.html" %}
+          <div class="about">
+            <h2>About</h2>
+            My name is Clint Shryock.  I develop things in Ruby, PHP, and Cocoa.  
+            I live in central Missouri, where the weather is beautiful 4 months of the year.
           </div>
-          <div id="footer" class="row">
-            <div class="span-one-third columns offset-one-third">
-              info [at] ctshryock [dot] com<br />
-              Site built with <a href="https://github.com/mojombo/jekyll">Jekyll</a><br><br>
-              Speaker for the Dead Code
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript">
+          {% endunless %}
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-5272456-2']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
-        
-    </body>    
-</html>
+      </div>
+    </div>
+  </div>

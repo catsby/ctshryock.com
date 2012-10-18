@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hi, my name is Clint
+title: Hi. I'm Clint Shryock.
 category: page
 permalink: about.html
 ---
