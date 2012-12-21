@@ -5,7 +5,7 @@ title: "TIL: Ruby stuff II"
 category: posts
 ---
 
-Continuing adventures in [The Ruby Porgramming Language][1]
+Continuing adventures in [The Ruby Programming Language][1]
 
 ### I see you
 
