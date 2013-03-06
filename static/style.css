@@ -2,19 +2,13 @@
 
 /* @override http://ctshryock.local/static/style.css */
 
-/* @override http://ctshryock.local/static/style.css */
-
 body {
-	margin: 0;
-	padding: 0;
-	text-align: justify;
 	color: #d5d5d5;
 	background-color: #424242;
-	font: 1.1em "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 } 
 
 #stylistic-bar-of-awesome {
-	background-color: #3ca679;
+	background-color: #c3dee8;
 	height: 3px;
 }
 
@@ -50,12 +44,7 @@ body {
 }*/
 
 a {
-	color: #3ca679;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a:hover {
+	color: #c3dee8;
 	text-decoration: underline;
 }
 
@@ -63,19 +52,10 @@ a img {
 	cursor: pointer;
 }
 
-/*p {
-	margin-bottom: 10px;
-}*/
-
-/*#title {
-	margin-bottom: 30px;
-}*/
-
 blockquote {
-	padding: 10px;
-	border-left: 3px solid #3ca679;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin-bottom: 10px;
+	border-left: 3px solid #c3dee8;
+	margin-bottom: 13px;
+	font-style: italic;
 }
 
 .highlight {
@@ -83,59 +63,14 @@ blockquote {
 	font-family: "Courier New", Courier, mono;
 }
 
-/*dl {
-	margin-bottom: 20px;
-}
-
-dl dt {
-	font-weight: bold;
-}*/
-
-
-/*#wrapper {
-	width: 960px;
-	margin: 0 auto;
-}*/
-
-/*#content {
-	width: 560px;
-	float: left;
-	margin: 0;
-	margin-bottom: 13px;
-	padding: 0;
-}*/
-
-/*#sidebar {
-	float:right;
-	margin: 0;
-	padding: 80px 0 0 20px;
-}*/
-
 li.page-link {
   list-style-image: url('images/site/page-link.png');
 }
-
-
-/*.post-date {
-	font-size: smaller;
-}*/
 
 .post-date-archive {
 	float: right;
 }
 
-/*.external-link {
-	float: right;
-}*/
-
-/*#footer {
-	text-align: center;
-	font-size: small;
-	border-top: 3px solid #333;
-	clear: both;
-	padding: 10px 0;
-	margin: 0 auto;
-}*/
 
 pre {
 	overflow: auto;
@@ -145,10 +80,6 @@ pre {
 	color: #424242;
 }
 
-/*dd ol {
-	margin: 0;
-	padding-left: 25px;
-}*/
 
 /* @group super awesome oreo-balls */
 
@@ -202,14 +133,6 @@ pre {
 
 /* @end */
 
-/*#page-title {
-  float: left;
-  width:700px;
-  height: 60px;
-
-  margin-bottom: 20px;
-}*/
-
 .source {
   text-align: right;
   padding-right: 13px;
@@ -217,11 +140,9 @@ pre {
 }
 
 code {
-	color: #3ca679;
+	color: #c3dee8;
 	background-color: inherit;
 	border: none;
-	font-weight: bold;
-	font-size: .8em;
 }
 
 .thumbnails li a img {
