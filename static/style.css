@@ -5,6 +5,7 @@
 body {
 	color: #d5d5d5;
 	background-color: #424242;
+	font-family: "Courier New", Courier, mono;
 } 
 
 #stylistic-bar-of-awesome {
@@ -60,7 +61,6 @@ blockquote {
 
 .highlight {
 	border-left: 3px solid #333;
-	font-family: "Courier New", Courier, mono;
 }
 
 li.page-link {
