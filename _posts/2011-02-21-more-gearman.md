@@ -36,7 +36,7 @@ This should work fine for installations of **libgearman** I covered previously, 
 installed elsewhere (I use [Cinderella][5]), your header files are in a different place, and you'll need to compile the 
 extension by [downloading the source][6], extracting it, and running the following
 
-{% highlight bash %}
+{% highlight bash linenos %}
 ~$ cd Downloads/gearman-0.7.0/gearman-0.7.0
 ~$ phpize
 ~$ ./configure --with-gearman=`brew --prefix`

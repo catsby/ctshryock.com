@@ -9,40 +9,48 @@ category: posts
 
 In Ruby you can chain method calls with `.` 
 
-    irb:> "a wild string".gsub(/ /, '+').capitalize
-    => "A+wild+string"
+{% highlight ruby %}
+irb:> "a wild string".gsub(/ /, '+').capitalize
+=> "A+wild+string"
+{% endhighlight %}
 
 But it works for other expressions too
 
-    x = 6
-    y = 4
+{% highlight ruby %}
+x = 6
+y = 4
 
-    total = x 
-      + y
+total = x 
+  + y
 
-    puts "Total: #{total}" #=> 6
+puts "Total: #{total}" #=> 6
 
-    total = x
-      .+ y
+total = x
+  .+ y
 
-    puts "Total redux: #{total}" #=> 10
+puts "Total redux: #{total}" #=> 10
+{% endhighlight %}
 
 Gives you:
 
-    $❯ ruby fun.rb
-    Total: 6
-    Total redux: 10
+{% highlight ruby %}
+$❯ ruby fun.rb
+Total: 6
+Total redux: 10
+{% endhighlight %}
 
 
 ## You can use _ for Integers and Floats
 
-    irb:> int = 1_000  
-    => 1000  
-    irb:> int.class  
-    => Fixnum  
-    irb:> flt = 1_000.00  
-    => 1000.0  
-    irb:> flt.class  
-    => Float
+{% highlight ruby %}
+irb:> int = 1_000  
+=> 1000  
+irb:> int.class  
+=> Fixnum  
+irb:> flt = 1_000.00  
+=> 1000.0  
+irb:> flt.class  
+=> Float
+{% endhighlight %}
 
 Improves readability of your code
