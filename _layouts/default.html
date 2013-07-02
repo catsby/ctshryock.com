@@ -4,11 +4,11 @@ layout: home
 
   <div class="row">
     <div class="span13">
-      <div class="span8">
-        {% if page.title %} <h1> {{page.title}} </h1>{% endif %}
+      <div class="span9">
+        {% if page.title %} <h2> {{page.title}} </h2>{% endif %}
         {{ content }}
       </div>
-      <div class="span3">
+      <div class="span2">
           <h2><a href="/">@ctshryock</a></h2> 
           <ul class="unstyled archive">
               <li><a href="/about.html" title="About">About</a></li>
@@ -20,7 +20,7 @@ layout: home
           </ul>
 
           {% unless page.permalink == "about.html" %}
-          <div class="about">
+          <div class="about span4">
             <h2>About</h2>
             My name is Clint Shryock.  I develop things in Ruby, PHP, and Cocoa.  
             I live in central Missouri, where the weather is beautiful 4 months of the year.

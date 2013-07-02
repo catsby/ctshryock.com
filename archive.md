@@ -5,8 +5,8 @@ title: Archive
 category: archive
 ---
 
-<ul class="unstyled archive">
+<table>
 {% for post in site.categories.posts %}
-  <li><a href="{{post.url}}">{{post.title}}</a><span class="post-date-archive">{{post.date | date_to_string}} </span></li>
+  <tr><td class="span7"><a href="{{post.url}}">{{post.title}}</a></td><td>{{post.date | date_to_string}} </td></tr>
 {% endfor %}
-</ul>
+</table>
