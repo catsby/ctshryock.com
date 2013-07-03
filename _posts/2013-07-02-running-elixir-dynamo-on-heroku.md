@@ -154,7 +154,9 @@ No idea. Elixir and Dynamo are both really young. While a native
 database interface is planned, there's nothing out at the time of this
 writing. Personal attemps to use
 [BossDB](https://github.com/evanmiller/boss_db) have failed. If I get it
-working, I'll update here. Until then, get hacking.
+working, I'll update here. 
+
+**Until then, get hacking.**
 
 
 
