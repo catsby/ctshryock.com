@@ -74,23 +74,23 @@ like normal assignment. It's not. For example:
 
 {% highlight ruby %}
 # ruby
->> list = [1,2,3]
+>> numbers = [1,2,3]
 => [1, 2, 3]
 {% endhighlight %}
 
-With assignment (in most OOP languages), the variable `list` is an **object** and 
+With assignment (in most OOP languages), the variable `numbers` is an **object** and 
 references an array of `[1,2,3]`. 
 
 {% highlight elixir %}
 # Elixir
-iex(1)> list = [1,2,3]
+iex(1)> numbers = [1,2,3]
 [1, 2, 3]
 {% endhighlight %}
 
-In Elixir, the variable `list` is now bound to `[1,2,3]` (which is a List in Elixir, not an array). Outwardly the
+In Elixir, the variable `numbers` is now bound to `[1,2,3]` (which is a List in Elixir, not an array). Outwardly the
 same, but a very different thing happened. Binding is more like a
-assertion, or a question, "can this statement be made true?". Thinking of it more as an
-assertion then this makes perfect sense: 
+assertion, or a question, "can this statement be made true?". If you think of 
+it more as an assertion, then this makes perfect sense:
 
 {% highlight elixir linenos %}
 # Elixir
