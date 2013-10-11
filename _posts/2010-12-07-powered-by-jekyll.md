@@ -37,7 +37,7 @@ I'll dive into my experience migrating from MT to Jekyll in my next post.
 [2]: https://github.com/mojombo/jekyll
 [3]: http://pages.github.com/
 [4]: http://twitter.com/ctshryock
-[5]: http://github.com/ctshryock
+[5]: http://github.com/catsby
 [6]: http://www.movabletype.org/opensource
 [7]: http://feedburner.google.com
 [8]: http://wordpress.org

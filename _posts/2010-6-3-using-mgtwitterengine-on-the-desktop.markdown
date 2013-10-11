@@ -13,5 +13,5 @@ In a future post I'll do a walkthrough of the basic setup, from cloning the repo
 [1]: http://github.com/mattgemmell/MGTwitterEngine
 [2]: http://dev.twitter.com/pages/auth
 [3]: http://github.com/jdg/oauthconsumer
-[4]: http://github.com/ctshryock/oauthconsumer
+[4]: http://github.com/catsby/oauthconsumer
 [5]: http://github.com/roustem/oauthconsumer 

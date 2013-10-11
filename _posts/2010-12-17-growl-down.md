@@ -10,5 +10,5 @@ Thus, [Growl Down][1] was born.  Growl Down is a ruby gem that wraps scp/curl on
 
 Growl Down is currently in development; I don't have much ruby gem experience, so I'm learning as I go.  I'm hoping for an beta release by years end, but the holidays are always busy so who knows.
 
-[1]: http://github.com/ctshryock/growl-down
+[1]: http://github.com/catsby/growl-down
 [2]: http://growl.info

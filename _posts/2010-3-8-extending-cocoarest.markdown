@@ -21,4 +21,4 @@ I also added a tab strictly for Github, with the idea being a tab for each API s
 [3]:http://develop.github.com/
 [4]:http://degutis.org/
 [5]:http://github.com/sdegutis/CocoaREST
-[6]:http://github.com/ctshryock/CocoaREST 
+[6]:http://github.com/catsby/CocoaREST 

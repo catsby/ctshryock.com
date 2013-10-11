@@ -15,7 +15,7 @@ I have  a support request in to Github to include branch and owner information i
 
 You can checkout or fork the project [here][1], patches are welcome.  
 
-[1]: http://github.com/ctshryock/GithubNotifier
+[1]: http://github.com/catsby/GithubNotifier
 [2]: http://github.com/sdegutis/CocoaREST
 [3]: http://degutis.org/
-[4]: http://github.com/ctshryock/CocoaREST 
+[4]: http://github.com/catsby/CocoaREST 

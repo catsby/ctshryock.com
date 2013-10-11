@@ -32,9 +32,9 @@ in Columbia
 
 [1]: /faces-app.html
 [2]: /github-notifier.html
-[3]: http://github.com/ctshryock/MGTwitterEngine
-[4]: http://github.com/ctshryock/CocoaREST
-[7]: https://github.com/ctshryock/growl-transfer
+[3]: http://github.com/catsby/MGTwitterEngine
+[4]: http://github.com/catsby/CocoaREST
+[7]: https://github.com/catsby/growl-transfer
 [9]: http://heroku.com
 [10]: http://comorichweb.posterous.com
 [12]: https://github.com/gearman-ruby/gearman-ruby

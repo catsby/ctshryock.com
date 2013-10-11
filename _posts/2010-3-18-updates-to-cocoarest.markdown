@@ -16,4 +16,4 @@ In addition I've added a tab to the demo app to show some of these.  In it you c
 
 The _GithubDelegate_ is kind of a cumbersome class in that it handles all of the task results even though the API returns different results for each task.  Ideally I would use a specialized class to delegate for each task, but it's just for demonstration. 
 
-[1]: http://github.com/ctshryock/CocoaREST 
+[1]: http://github.com/catsby/CocoaREST 

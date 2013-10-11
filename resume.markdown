@@ -46,9 +46,9 @@ Web developer, responsible for the Missouri Department of Insurance website, inc
 ### Contact 
 *info at ctshryock dot com*
 
-[1]: http://github.com/ctshryock/MGTwitterEngine
-[2]: http://github.com/ctshryock/CocoaREST
-[3]: http://github.com/ctshryock/jrfeedbackprovider
+[1]: http://github.com/catsby/MGTwitterEngine
+[2]: http://github.com/catsby/CocoaREST
+[3]: http://github.com/catsby/jrfeedbackprovider
 [4]: /faces-app.html
 [5]: /github-notifier.html 
 [6]: http://cramerdev.com

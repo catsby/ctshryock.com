@@ -25,6 +25,6 @@ simplicity of ShowOff felt much more at home for me.
 [2]: http://comorichweb.posterous.com
 [3]: http://thirstyhead.com/
 [4]: http://ctshryock.github.com/git-flow-talk
-[5]: https://github.com/ctshryock/git-flow-talk
+[5]: https://github.com/catsby/git-flow-talk
 [6]: https://github.com/schacon/showoff
 [7]: /static/pdfs/html5-1up.pdf
