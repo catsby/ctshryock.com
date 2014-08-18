@@ -7,3 +7,4 @@ robots.txt
 .rbenv-*
 .bundle
 bin
+.vagrant

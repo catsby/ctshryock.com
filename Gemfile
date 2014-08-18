@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
 gem 'capistrano'
-gem 'jekyll'
+gem 'jekyll', '~> 2.0.0'
 gem 'kramdown'
-# gem 'gsl', '~> 1.14.1'
+gem 'gsl', '~> 1.15.3'
