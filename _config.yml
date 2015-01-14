@@ -5,7 +5,7 @@ relative_permalinks: false
 timezone: America/Chicago
 port: 5000
 encoding: "utf-8"
-lsi: true
+# lsi: true
 
 kramdown:
   auto_ids: true
