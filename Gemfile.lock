@@ -53,6 +53,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    narray (0.6.1.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -64,6 +65,8 @@ GEM
       yajl-ruby (~> 1.1.0)
     rake (10.4.2)
     rb-fsevent (0.9.4)
+    rb-gsl (1.16.0.4)
+      narray (>= 0.5.9)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
@@ -86,3 +89,4 @@ DEPENDENCIES
   capistrano
   jekyll
   kramdown
+  rb-gsl
