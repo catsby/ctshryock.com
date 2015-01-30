@@ -8,7 +8,7 @@ tags: Heroku, career
 
 Today is my last day working at Heroku.  
 The last day I get to call myself a Herokai.  
-The last day I log in to the best job I’ve ever had to date.  
+The last day I log in to the best job I’ve had to date.  
 
 I came onboard in October of 2012, a time that seems so long ago but passed too quickly. I am forever grateful for those that helped me get there. I had [excellent][1] [mentors][2] (or “bosses” as some call them), and so many brilliant and amazing co-workers I don’t have enough words to list them, let alone describe them. I learned so much at Heroku, including how far I still have to go, and leveled up several times. 
 
