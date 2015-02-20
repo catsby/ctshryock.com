@@ -23,9 +23,11 @@ It came time where I needed to practice what I preach and achieve (better) dev/p
 
 If you haven't read [Getting Started][3] and [How to Write Go Code][4], then why are you here? Go do that. In fact, I wouldn't necessarily come right back here either, maybe bookmark for months later when you feel comfortable enough to muck up your environment with reckless abandon[^note2]. Assuming you followed those guides, you should have Go currently installed in `/usr/local/go`; We're going to delete that.
 
-    $ rm -rf /usr/local/go 
+```bash
+$ rm -rf /usr/local/go 
+```
 
-*Exciting, right?*
+*Exciting*, right?
 
 ## Environment variables 
 
@@ -36,12 +38,14 @@ In order to get started, we need to review important environment variables that 
 - `$GOROOT`: where Go is actually located. Unless specified, Go assumes it lives in `/usr/local/go` (the thing we just deleted). Fortunately you can install Go anywhere you like so long as set the `$GOROOT` environment variable and add `$GOROOT/bin` to your `$PATH`
 
 You need to setup these environment variables yourself, typically in a `~/.bashrc` or a `~/.zshrc` file (or whatever shell you're using), 
-and then make sure the relative `bin` folders are added to your $PATH`:
+and then make sure the relative `bin` folders are added to your `$PATH`:
 
-    # in ~/.zshrc  
-    export GOPATH=$HOME/Go
-    export GOROOT=/usr/local/go
-    export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+```bash
+# in ~/.zshrc  
+export GOPATH=$HOME/Go
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+```
 
 Your environment should be complete now. Nothing should work though.
 
@@ -49,17 +53,17 @@ Your environment should be complete now. Nothing should work though.
 
 The official binary distributions can be found on [golang's site here][5] (this example uses the latest for OS X 10.8+). We'll create a folder in `/usr/local` to store our Go versions, pull some down and extract them to their own folders, and then create a symlink to the one we want to use. For this example, we'll use the latest go 1.3.3 and go 1.4.1:
 
-```  
+```bash
 $ mkdir -p /usr/local/go-versions/go1.3
 $ curl https://storage.googleapis.com/golang/go1.3.3.darwin-386-osx10.8.tar.gz | tar -xz -C /usr/local/go-versions/go1.3 --strip-components=1
 
 $ mkdir -p /usr/local/go-versions/go1.4
-$ curl https://storage.googleapis.com/golang/go1.4.1.darwin-386-osx10.8.tar.gz | tar -xz -C /usr/local/go-versions/go1.4 --strip-components=1
+$ curl https://storage.googleapis.com/golang/go1.4.1.darwin-386-osx10.8.tar.gz | tar -xz -C /usr/local/go-versions/go1.4 --strip-components=1  
 ```
 
 Now `/usr/local/go-versions` should have your separate versions in it and look like this:
 
-```
+```bash
 $ ls /usr/local/go-versions
 go1.3 go1.4
 ```
@@ -68,13 +72,13 @@ go1.3 go1.4
 
 To support multiple versions we'll create a symbolic link where your `$GOROOT` points to. In order to toggle a version, you simply update the symlink at `/usr/local/go` (your `$GOROOT`) to point to the desired version. The initial creation of the link and toggling versions can be done with the same command:
 
-```
+```bash
 $ ln -sfn /usr/local/go-versions/go1.4 /usr/local/go
 ```
 
 This command will create a symbolic link at `/usr/local/go`, pointing to the `/usr/local/go-versions/go1.4` directory, replacing the symlink if it already exists. Now you can toggle back and forth:
 
-```
+```bash
 $ ln -sfn /usr/local/go-versions/go1.4 /usr/local/go
 $ go version
 go version go1.4.1 darwin/386
@@ -94,13 +98,15 @@ When you invoke the `go` tool, it will search the `$GOPATH/pkg` folder to find e
 
 To get around any potential issues (or resolve them), you can safely destroy your `$GOPATH/pkg` folder (**not** your `$GOROOT/pkg` folder):
 
-    $ rm -r $GOPATH/pkg
+```bash
+$ rm -r $GOPATH/pkg
+```
 
 Future invocations of `go` will reinstall/compile packages as necessary. You will incur the additional overhead of recompiling these things (downloading from the net if needed), but at least you can be assured that they are compiled against the current version of Go that you're using. 
 
 # End
 
-— 
+---
 
 Thanks to Ed Muller (@freeformz), Mark Turner (@amerine), Andrew Gwozdziewycz (@apgwoz), and Dane Harrigan (@daneharrigan) for educating me here. 
 
