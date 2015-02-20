@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-02-16
+date: 2015-02-20
 title: "Managing Go versions"
 category: posts
 tags: Go
